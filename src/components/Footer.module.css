@@ -1,0 +1,166 @@
+.footer {
+  background: #0f172a;
+  color: #94a3b8;
+  padding: 4rem 1.5rem 2rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.top {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 2fr;
+  gap: 3rem;
+  margin-bottom: 3rem;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid #1e293b;
+}
+
+.brand {}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: 0.05em;
+  margin-bottom: 1rem;
+}
+
+.tagline {
+  font-size: 0.85rem;
+  line-height: 1.7;
+  margin-bottom: 1.2rem;
+}
+
+.socials {
+  display: flex;
+  gap: 0.6rem;
+}
+
+.social {
+  width: 34px;
+  height: 34px;
+  background: #1e293b;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #94a3b8;
+  transition: background 0.2s, color 0.2s;
+}
+
+.social:hover {
+  background: #2563eb;
+  color: #fff;
+}
+
+.col {}
+
+.colTitle {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #e2e8f0;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 1rem;
+}
+
+.colLinks {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.colLinks a {
+  font-size: 0.88rem;
+  color: #94a3b8;
+  transition: color 0.2s;
+}
+
+.colLinks a:hover {
+  color: #fff;
+}
+
+.newsletterText {
+  font-size: 0.85rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.newsletterForm {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.newsletterInput {
+  flex: 1;
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  padding: 0.6rem 0.8rem;
+  font-size: 0.82rem;
+  color: #e2e8f0;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.newsletterInput::placeholder {
+  color: #475569;
+}
+
+.newsletterInput:focus {
+  border-color: #2563eb;
+}
+
+.newsletterBtn {
+  background: #2563eb;
+  color: #fff;
+  font-size: 0.82rem;
+  font-weight: 600;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  transition: background 0.2s;
+  white-space: nowrap;
+}
+
+.newsletterBtn:hover {
+  background: #1d4ed8;
+}
+
+.bottom {
+  text-align: center;
+}
+
+.copyright {
+  font-size: 0.82rem;
+  color: #475569;
+}
+
+.footerLink {
+  color: #64748b;
+  transition: color 0.2s;
+}
+
+.footerLink:hover {
+  color: #fff;
+}
+
+@media (max-width: 900px) {
+  .top {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .top {
+    grid-template-columns: 1fr;
+  }
+}

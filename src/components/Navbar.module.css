@@ -1,0 +1,105 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: #ffffff;
+  border-bottom: 1px solid #eef0f5;
+  padding: 0 1.5rem;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.06);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  height: 64px;
+  gap: 2rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-weight: 800;
+  font-size: 1.1rem;
+  letter-spacing: 0.05em;
+  color: #1a1a2e;
+  flex-shrink: 0;
+}
+
+.logoIcon {
+  font-size: 1.3rem;
+}
+
+.logoText {
+  color: #1a1a2e;
+}
+
+.navLinks {
+  display: flex;
+  list-style: none;
+  gap: 1.8rem;
+  flex: 1;
+}
+
+.navLinks a {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #555;
+  transition: color 0.2s;
+}
+
+.navLinks a:hover {
+  color: #2563eb;
+}
+
+.activeLink {
+  color: #2563eb !important;
+  font-weight: 700 !important;
+  position: relative;
+}
+
+.activeLink::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: #2563eb;
+  border-radius: 2px;
+}
+
+.navActions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-shrink: 0;
+}
+
+.loginLink {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #555;
+  transition: color 0.2s;
+}
+
+.loginLink:hover {
+  color: #2563eb;
+}
+
+.btnPrimary {
+  background: #2563eb;
+  color: #fff;
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 0.5rem 1.2rem;
+  border-radius: 8px;
+  transition: background 0.2s, transform 0.1s;
+}
+
+.btnPrimary:hover {
+  background: #1d4ed8;
+  transform: translateY(-1px);
+}

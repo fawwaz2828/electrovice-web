@@ -1,0 +1,253 @@
+.hero {
+  background: linear-gradient(135deg, #f0f4ff 0%, #fafbff 60%, #e8f0fe 100%);
+  padding: 5rem 1.5rem 4rem;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.content {
+  flex: 1;
+  max-width: 560px;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  background: #dbeafe;
+  color: #1d4ed8;
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 0.35rem 0.9rem;
+  border-radius: 20px;
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.03em;
+}
+
+.headline {
+  font-size: clamp(2.5rem, 5vw, 3.5rem);
+  font-weight: 900;
+  line-height: 1.1;
+  color: #1a1a2e;
+  margin-bottom: 1.2rem;
+}
+
+.highlight {
+  color: #2563eb;
+}
+
+.subtext {
+  font-size: 1rem;
+  color: #555e7a;
+  line-height: 1.7;
+  margin-bottom: 2rem;
+  max-width: 440px;
+}
+
+.actions {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 2.5rem;
+}
+
+.btnPrimary {
+  background: #2563eb;
+  color: #fff;
+  font-size: 0.95rem;
+  font-weight: 700;
+  padding: 0.8rem 1.8rem;
+  border-radius: 10px;
+  transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
+  box-shadow: 0 4px 14px rgba(37,99,235,0.35);
+}
+
+.btnPrimary:hover {
+  background: #1d4ed8;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(37,99,235,0.45);
+}
+
+.btnSecondary {
+  background: #fff;
+  color: #2563eb;
+  font-size: 0.95rem;
+  font-weight: 700;
+  padding: 0.8rem 1.8rem;
+  border-radius: 10px;
+  border: 2px solid #2563eb;
+  transition: background 0.2s, color 0.2s, transform 0.15s;
+}
+
+.btnSecondary:hover {
+  background: #2563eb;
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+.stats {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.statNum {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: #1a1a2e;
+}
+
+.statLabel {
+  font-size: 0.78rem;
+  color: #888;
+  font-weight: 500;
+}
+
+.divider {
+  width: 1px;
+  height: 36px;
+  background: #d1d5db;
+}
+
+/* Image side */
+.imageWrapper {
+  flex: 1;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 380px;
+}
+
+.imageBg {
+  position: absolute;
+  width: 320px;
+  height: 320px;
+  background: linear-gradient(135deg, #2563eb22, #6366f122);
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.imageCard {
+  position: relative;
+  background: #fff;
+  border-radius: 20px;
+  padding: 1.5rem;
+  box-shadow: 0 20px 60px rgba(37,99,235,0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  width: 220px;
+  z-index: 2;
+}
+
+.techBadge {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: #dcfce7;
+  color: #16a34a;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.3rem 0.7rem;
+  border-radius: 12px;
+  align-self: flex-start;
+}
+
+.techBadgeDot {
+  width: 6px;
+  height: 6px;
+  background: #16a34a;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.techAvatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid #e0e7ff;
+}
+
+.techAvatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.techInfo {
+  text-align: center;
+}
+
+.techName {
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: #1a1a2e;
+}
+
+.techRole {
+  font-size: 0.78rem;
+  color: #888;
+  margin-bottom: 0.3rem;
+}
+
+.techRating {
+  color: #f59e0b;
+  font-size: 0.8rem;
+}
+
+.techRating span {
+  color: #555;
+  font-weight: 600;
+}
+
+.floatingCard {
+  position: absolute;
+  bottom: 30px;
+  right: -10px;
+  background: #fff;
+  border-radius: 14px;
+  padding: 0.75rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+  z-index: 3;
+  animation: float 3s ease-in-out infinite;
+}
+
+.floatingIcon {
+  font-size: 1.4rem;
+}
+
+.floatingTitle {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: #1a1a2e;
+}
+
+.floatingSubtitle {
+  font-size: 0.72rem;
+  color: #888;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}

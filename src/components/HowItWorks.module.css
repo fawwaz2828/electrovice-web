@@ -1,0 +1,231 @@
+.section {
+  padding: 5rem 1.5rem;
+  background: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  gap: 4rem;
+  align-items: flex-start;
+}
+
+.left {
+  flex: 1.2;
+}
+
+.pill {
+  display: inline-block;
+  background: #dbeafe;
+  color: #1d4ed8;
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 0.3rem 0.9rem;
+  border-radius: 20px;
+  margin-bottom: 0.8rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #1a1a2e;
+  margin-bottom: 0.8rem;
+  line-height: 1.2;
+}
+
+.subtitle {
+  font-size: 0.95rem;
+  color: #666;
+  line-height: 1.7;
+  margin-bottom: 2rem;
+  max-width: 420px;
+}
+
+.steps {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+
+.step {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.stepNum {
+  background: #2563eb;
+  color: #fff;
+  font-size: 0.78rem;
+  font-weight: 800;
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.stepContent {}
+
+.stepHeader {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.3rem;
+}
+
+.stepIcon {
+  font-size: 1.1rem;
+}
+
+.stepTitle {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #1a1a2e;
+}
+
+.stepDesc {
+  font-size: 0.85rem;
+  color: #666;
+  line-height: 1.6;
+}
+
+/* Right card */
+.right {
+  flex: 1;
+}
+
+.card {
+  background: linear-gradient(135deg, #1e40af 0%, #2563eb 50%, #3b82f6 100%);
+  border-radius: 20px;
+  padding: 2rem;
+  color: #fff;
+  box-shadow: 0 20px 60px rgba(37,99,235,0.3);
+  position: sticky;
+  top: 90px;
+}
+
+.cardBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: rgba(255,255,255,0.2);
+  backdrop-filter: blur(8px);
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.3rem 0.8rem;
+  border-radius: 12px;
+  margin-bottom: 1.2rem;
+}
+
+.dot {
+  width: 7px;
+  height: 7px;
+  background: #4ade80;
+  border-radius: 50%;
+  display: inline-block;
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+
+.cardTitle {
+  font-size: 1.5rem;
+  font-weight: 800;
+  line-height: 1.25;
+  margin-bottom: 0.8rem;
+}
+
+.cardSubtitle {
+  font-size: 0.88rem;
+  opacity: 0.85;
+  line-height: 1.65;
+  margin-bottom: 1.8rem;
+}
+
+.metrics {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.8rem;
+}
+
+.metric {
+  flex: 1;
+  background: rgba(255,255,255,0.15);
+  border-radius: 12px;
+  padding: 0.8rem;
+  text-align: center;
+}
+
+.metricValue {
+  display: block;
+  font-size: 0.95rem;
+  font-weight: 800;
+}
+
+.metricLabel {
+  display: block;
+  font-size: 0.7rem;
+  opacity: 0.75;
+  margin-top: 0.15rem;
+}
+
+.progressSection {
+  margin-bottom: 1.5rem;
+}
+
+.progressLabel {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.82rem;
+  opacity: 0.85;
+  margin-bottom: 0.5rem;
+}
+
+.progressBar {
+  background: rgba(255,255,255,0.2);
+  border-radius: 20px;
+  height: 8px;
+  overflow: hidden;
+}
+
+.progressFill {
+  background: #4ade80;
+  height: 100%;
+  border-radius: 20px;
+  transition: width 1s ease;
+}
+
+.cardBtn {
+  display: inline-block;
+  background: #fff;
+  color: #2563eb;
+  font-size: 0.88rem;
+  font-weight: 700;
+  padding: 0.7rem 1.4rem;
+  border-radius: 10px;
+  transition: background 0.2s, transform 0.15s;
+}
+
+.cardBtn:hover {
+  background: #eff6ff;
+  transform: translateY(-1px);
+}
+
+@media (max-width: 900px) {
+  .container {
+    flex-direction: column;
+  }
+  .card {
+    position: static;
+  }
+}

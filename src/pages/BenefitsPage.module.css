@@ -1,0 +1,499 @@
+/* Hero */
+.hero {
+  background: linear-gradient(135deg, #f0f4ff 0%, #fafbff 60%, #e8f0fe 100%);
+  padding: 5rem 1.5rem 4rem;
+  overflow: hidden;
+}
+
+.heroContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.heroContent {
+  flex: 1;
+  max-width: 520px;
+}
+
+.heroBadge {
+  display: inline-block;
+  background: #dbeafe;
+  color: #1d4ed8;
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 0.35rem 0.9rem;
+  border-radius: 20px;
+  margin-bottom: 1.2rem;
+  letter-spacing: 0.04em;
+}
+
+.heroTitle {
+  font-size: clamp(2.2rem, 4.5vw, 3.2rem);
+  font-weight: 900;
+  line-height: 1.1;
+  color: #1a1a2e;
+  margin-bottom: 1rem;
+}
+
+.heroHighlight {
+  color: #2563eb;
+}
+
+.heroDesc {
+  font-size: 0.98rem;
+  color: #555e7a;
+  line-height: 1.7;
+}
+
+.heroVisual {
+  flex: 1;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 320px;
+  gap: 1.5rem;
+}
+
+.otpCard {
+  background: #fff;
+  border-radius: 16px;
+  padding: 1.4rem 1.2rem;
+  box-shadow: 0 12px 40px rgba(37,99,235,0.15);
+  text-align: center;
+  z-index: 2;
+}
+
+.otpLabel {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: #555;
+  margin-bottom: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.otpBoxes {
+  display: flex;
+  gap: 0.4rem;
+  margin-bottom: 0.8rem;
+}
+
+.otpBox {
+  width: 36px;
+  height: 42px;
+  border: 2px solid #2563eb;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: #2563eb;
+  background: #eff6ff;
+}
+
+.otpEmpty {
+  border-color: #d1d5db;
+  background: #f9fafb;
+}
+
+.otpSub {
+  font-size: 0.7rem;
+  color: #888;
+}
+
+.heroImgWrap {
+  width: 200px;
+  height: 220px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 16px 48px rgba(0,0,0,0.12);
+}
+
+.heroImgWrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Shared */
+.section {
+  padding: 5rem 1.5rem;
+  background: #fff;
+}
+
+.sectionAlt {
+  padding: 5rem 1.5rem;
+  background: #f8faff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.sectionHeader {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.pill {
+  display: inline-block;
+  background: #dbeafe;
+  color: #1d4ed8;
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 0.3rem 0.9rem;
+  border-radius: 20px;
+  margin-bottom: 0.7rem;
+  letter-spacing: 0.04em;
+}
+
+.sectionTitle {
+  font-size: 1.9rem;
+  font-weight: 800;
+  color: #1a1a2e;
+  margin-bottom: 0.7rem;
+  line-height: 1.2;
+}
+
+.sectionDesc {
+  font-size: 0.95rem;
+  color: #666;
+  line-height: 1.7;
+  max-width: 520px;
+}
+
+/* Two column */
+.twoCol {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.twoColReverse {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: stretch;
+}
+
+.colText {}
+
+.featureList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-top: 1.8rem;
+}
+
+.featureList li {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.featureIcon {
+  font-size: 1.5rem;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.featureList strong {
+  display: block;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin-bottom: 0.2rem;
+}
+
+.featureList p {
+  font-size: 0.85rem;
+  color: #666;
+  line-height: 1.6;
+}
+
+.colImage {}
+
+.imageFrame {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 16px 48px rgba(37,99,235,0.12);
+}
+
+.imageFrame img {
+  width: 100%;
+  height: 340px;
+  object-fit: cover;
+  display: block;
+}
+
+.imageTag {
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+  background: rgba(255,255,255,0.95);
+  backdrop-filter: blur(8px);
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #1a1a2e;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Technicians */
+.techCard {
+  background: #fff;
+  border: 1px solid #e0e7ff;
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 4px 20px rgba(37,99,235,0.06);
+}
+
+.techCardTitle {
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: #1a1a2e;
+  margin-bottom: 0.8rem;
+}
+
+.techCardDesc {
+  font-size: 0.88rem;
+  color: #666;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+.techStats {
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.techStat {
+  background: #eff6ff;
+  color: #2563eb;
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 0.4rem 0.9rem;
+  border-radius: 8px;
+}
+
+.credCard {
+  background: linear-gradient(135deg, #1e40af, #3b82f6);
+  border-radius: 20px;
+  padding: 2rem;
+  color: #fff;
+}
+
+.credBadge {
+  display: inline-block;
+  background: rgba(255,255,255,0.2);
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 0.3rem 0.8rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.credTitle {
+  font-size: 1.3rem;
+  font-weight: 800;
+  margin-bottom: 0.7rem;
+}
+
+.credDesc {
+  font-size: 0.88rem;
+  opacity: 0.9;
+  line-height: 1.65;
+  margin-bottom: 1.2rem;
+}
+
+.credList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.credList li {
+  font-size: 0.88rem;
+  opacity: 0.9;
+}
+
+/* Eco */
+.ecoStats {
+  display: flex;
+  gap: 2rem;
+  margin: 1.5rem 0;
+}
+
+.ecoStat {}
+
+.ecoNum {
+  display: block;
+  font-size: 2rem;
+  font-weight: 900;
+  color: #16a34a;
+}
+
+.ecoLabel {
+  font-size: 0.78rem;
+  color: #666;
+}
+
+.ecoQuote {
+  font-size: 0.88rem;
+  color: #555;
+  font-style: italic;
+  border-left: 3px solid #16a34a;
+  padding-left: 1rem;
+  line-height: 1.65;
+}
+
+.ecoImageFrame {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 16px 48px rgba(0,0,0,0.12);
+}
+
+.ecoImageFrame img {
+  width: 100%;
+  height: 340px;
+  object-fit: cover;
+  display: block;
+}
+
+.ecoTag {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: #dcfce7;
+  color: #16a34a;
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 0.4rem 0.9rem;
+  border-radius: 10px;
+}
+
+/* Features grid */
+.featuresGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.featureCard {
+  background: #fff;
+  border: 1px solid #e0e7ff;
+  border-radius: 16px;
+  padding: 2rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.featureCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(37,99,235,0.1);
+}
+
+.featureCardIcon {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.featureCard h3 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin-bottom: 0.6rem;
+}
+
+.featureCard p {
+  font-size: 0.88rem;
+  color: #666;
+  line-height: 1.65;
+}
+
+/* CTA */
+.ctaSection {
+  background: linear-gradient(135deg, #1e40af 0%, #2563eb 50%, #3b82f6 100%);
+  padding: 5rem 1.5rem;
+  text-align: center;
+  color: #fff;
+}
+
+.ctaContainer {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.ctaTitle {
+  font-size: clamp(1.8rem, 3.5vw, 2.4rem);
+  font-weight: 900;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.ctaDesc {
+  font-size: 1rem;
+  opacity: 0.88;
+  line-height: 1.7;
+  margin-bottom: 2rem;
+}
+
+.ctaActions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.ctaBtnPrimary {
+  background: #fff;
+  color: #2563eb;
+  font-size: 0.95rem;
+  font-weight: 700;
+  padding: 0.8rem 2rem;
+  border-radius: 10px;
+  transition: background 0.2s, transform 0.15s;
+}
+
+.ctaBtnPrimary:hover {
+  background: #eff6ff;
+  transform: translateY(-2px);
+}
+
+.ctaBtnSecondary {
+  background: rgba(255,255,255,0.15);
+  color: #fff;
+  font-size: 0.95rem;
+  font-weight: 700;
+  padding: 0.8rem 2rem;
+  border-radius: 10px;
+  border: 2px solid rgba(255,255,255,0.4);
+  transition: background 0.2s, transform 0.15s;
+}
+
+.ctaBtnSecondary:hover {
+  background: rgba(255,255,255,0.25);
+  transform: translateY(-2px);
+}
+
+@media (max-width: 900px) {
+  .heroContainer, .twoCol, .twoColReverse, .featuresGrid {
+    grid-template-columns: 1fr;
+    flex-direction: column;
+  }
+  .heroContainer {
+    flex-direction: column;
+  }
+}
