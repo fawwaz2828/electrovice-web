@@ -14,24 +14,22 @@ export default function HowItWorksPage() {
         <div className={styles.heroContainer}>
           <div className={styles.heroContent}>
             <span className={styles.heroBadge}>
-              <Settings2 size={13} strokeWidth={2} /> Cara Kerja ELECTROVICE
+              <Settings2 size={13} strokeWidth={2} /> How ELECTROVICE Works
             </span>
             <h1 className={styles.heroTitle}>
-              Dari Pesan
+              From Booking
               <br />
-              <span className={styles.heroHighlight}>Hingga Selesai.</span>
+              <span className={styles.heroHighlight}>To Done.</span>
             </h1>
             <p className={styles.heroDesc}>
-              ELECTROVICE menjembatani pemilik perangkat rusak dengan teknisi
-              profesional melalui empat langkah mudah yang cepat, transparan,
-              dan terjamin keamanannya.
+              ELECTROVICE bridges device owners with professional technicians through four easy steps that are fast, transparent, and fully secured.
             </p>
           </div>
           <div className={styles.heroImage}>
             <div className={styles.heroImgWrap}>
               <img
                 src={stepsImg}
-                alt="Seseorang menggunakan aplikasi ELECTROVICE di smartphone"
+                alt="Someone using the ELECTROVICE app on a smartphone"
               />
             </div>
           </div>
@@ -46,16 +44,14 @@ export default function HowItWorksPage() {
             <div className={styles.stepLeft}>
               <div className={styles.stepNum}>01</div>
               <div className={styles.stepContent}>
-                <h2 className={styles.stepTitle}>Pilih Kategori via GPS</h2>
+                <h2 className={styles.stepTitle}>Choose Category via GPS</h2>
                 <p className={styles.stepDesc}>
-                  Pilih kategori kerusakan perangkat atau kendaraanmu. Sistem
-                  menggunakan GPS untuk otomatis menampilkan teknisi dan bengkel
-                  terdekat dengan spesialisasi yang relevan.
+                  Select your device or vehicle damage category. The system uses GPS to automatically display nearby technicians and workshops with relevant specializations.
                 </p>
                 <div className={styles.stepTags}>
-                  <span>Elektronik</span>
-                  <span>Peralatan Listrik</span>
-                  <span>Kendaraan</span>
+                  <span>Electronics</span>
+                  <span>Electrical Equipment</span>
+                  <span>Vehicles</span>
                 </div>
               </div>
             </div>
@@ -77,11 +73,9 @@ export default function HowItWorksPage() {
                 02
               </div>
               <div className={styles.stepContent}>
-                <h2 className={styles.stepTitle}>Kode Verifikasi 6 Digit</h2>
+                <h2 className={styles.stepTitle}>6-Digit Verification Code</h2>
                 <p className={styles.stepDesc}>
-                  Setelah memilih teknisi, aplikasi menerbitkan kode unik 6
-                  digit. Berikan kode ini hanya kepada teknisi yang datang untuk
-                  memastikan identitasnya sebelum pekerjaan dimulai.
+                  After selecting a technician, the app issues a unique 6-digit code. Share this code only with the technician who arrives to confirm their identity before work begins.
                 </p>
               </div>
             </div>
@@ -89,7 +83,7 @@ export default function HowItWorksPage() {
               <div className={styles.veriffImgWrap}>
                 <img
                   src={veriffImg}
-                  alt="Kode Verifikasi 6 Digit ELECTROVICE"
+                  alt="ELECTROVICE 6-Digit Verification Code"
                   className={styles.veriffImg}
                 />
               </div>
@@ -101,11 +95,9 @@ export default function HowItWorksPage() {
             <div className={styles.stepLeft}>
               <div className={styles.stepNum}>03</div>
               <div className={styles.stepContent}>
-                <h2 className={styles.stepTitle}>Pantau Perbaikan Real-Time</h2>
+                <h2 className={styles.stepTitle}>Monitor Repair in Real-Time</h2>
                 <p className={styles.stepDesc}>
-                  Pantau setiap tahap perbaikan secara langsung dari aplikasi —
-                  dari pengecekan awal, penggantian suku cadang, hingga
-                  pengujian akhir. Kamu tahu persis apa yang terjadi.
+                  Track every stage of the repair live from the app — from initial inspection, parts replacement, to final testing. You know exactly what's happening.
                 </p>
               </div>
             </div>
@@ -113,7 +105,7 @@ export default function HowItWorksPage() {
               <div className={styles.veriffImgWrap}>
                 <img
                   src={tepImg}
-                  alt="Pantau Perbaikan Real-Time ELECTROVICE"
+                  alt="ELECTROVICE Real-Time Repair Monitoring"
                   className={styles.veriffImg}
                 />
               </div>
@@ -128,12 +120,10 @@ export default function HowItWorksPage() {
               </div>
               <div className={styles.stepContent}>
                 <h2 className={styles.stepTitle}>
-                  Bayar Aman &amp; Simpan Riwayat
+                  Pay Securely &amp; Save History
                 </h2>
                 <p className={styles.stepDesc}>
-                  Pembayaran dilakukan secara aman via aplikasi dan hanya
-                  diproses setelah kamu konfirmasi. Semua detail pengerjaan
-                  tersimpan otomatis sebagai dokumen garansi digital.
+                  Payment is made securely via the app and only processed after your confirmation. All repair details are automatically saved as a digital warranty document.
                 </p>
               </div>
             </div>
@@ -141,7 +131,7 @@ export default function HowItWorksPage() {
               <div className={styles.veriffImgWrap}>
                 <img
                   src={payImg}
-                  alt="Bayar Aman & Simpan Riwayat ELECTROVICE"
+                  alt="ELECTROVICE Secure Payment & Save History"
                   className={styles.veriffImg}
                 />
               </div>
@@ -155,26 +145,24 @@ export default function HowItWorksPage() {
         <div className={styles.container}>
           <div className={styles.reliabilityHeader}>
             <h2 className={styles.reliabilityTitle}>
-              Dirancang untuk Kepercayaan.
+              Designed for Trust.
             </h2>
             <p className={styles.reliabilityDesc}>
-              Platform kami menggabungkan pencocokan teknisi berbasis GPS dengan
-              komitmen terhadap pengurangan e-waste. Dengan memperpanjang usia
-              pakai perangkatmu, kita jaga investasi sekaligus lingkungan.
+              Our platform combines GPS-based technician matching with a commitment to reducing e-waste. By extending the lifespan of your devices, we protect your investment and the environment.
             </p>
           </div>
           <div className={styles.reliabilityBadges}>
             <div className={styles.relBadge}>
               <CheckCircle2 size={18} strokeWidth={2} color="#16a34a" />
-              <span>100% Aman</span>
+              <span>100% Secure</span>
             </div>
             <div className={styles.relBadge}>
               <Leaf size={18} strokeWidth={2} color="#16a34a" />
-              <span>Kurangi E-Waste</span>
+              <span>Reduce E-Waste</span>
             </div>
             <div className={styles.relBadge}>
               <Award size={18} strokeWidth={2} color="#2563eb" />
-              <span>Teknisi Terverifikasi</span>
+              <span>Verified Technicians</span>
             </div>
           </div>
         </div>

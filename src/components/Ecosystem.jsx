@@ -2,15 +2,15 @@ import styles from './Ecosystem.module.css'
 
 const categories = [
   {
-    title: 'Elektronik',
-    desc: 'TV, laptop, kulkas, smartphone, AC, dan semua perangkat elektronik rumah tangga. Teknisi terdekat siap dipanggil ke lokasi.',
+    title: 'Electronics',
+    desc: 'TVs, laptops, refrigerators, smartphones, AC units, and all home electronics. The nearest technician is ready to be called to your location.',
     img: 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=360&fit=crop',
-    tag: 'Paling Populer',
+    tag: 'Most Popular',
     tagColor: '#2563eb',
   },
   {
-    title: 'Kendaraan',
-    desc: 'Servis motor, mobil, dan kendaraan operasional. Teknisi bengkel profesional siap datang ke lokasi mogokmu.',
+    title: 'Vehicles',
+    desc: 'Motorcycle, car, and operational vehicle service. Professional workshop technicians are ready to come to your breakdown location.',
     img: 'https://images.unsplash.com/photo-1487754180451-c456f719a1fc?w=600&h=360&fit=crop',
     tag: 'Home Service',
     tagColor: '#9333ea',
@@ -22,10 +22,10 @@ export default function Ecosystem() {
     <section id="ecosystem" className={styles.section}>
       <div className={styles.container}>
         <div className={styles.header}>
-          <span className={styles.pill}>Kategori Layanan</span>
-          <h2 className={styles.title}>Ekosistem Perbaikan</h2>
+          <span className={styles.pill}>Service Categories</span>
+          <h2 className={styles.title}>Repair Ecosystem</h2>
           <p className={styles.subtitle}>
-            Dari perangkat elektronik rumah tangga hingga kendaraan — satu platform untuk semua kebutuhan servismu.
+            From home electronics to vehicles — one platform for all your service needs.
           </p>
         </div>
         <div className={styles.grid}>
@@ -39,7 +39,7 @@ export default function Ecosystem() {
                 <h3 className={styles.cardTitle}>{cat.title}</h3>
                 <p className={styles.cardDesc}>{cat.desc}</p>
                 <a href="#book" className={styles.cardLink}>
-                  Cari Teknisi →
+                  Find Technician →
                 </a>
               </div>
             </div>

@@ -13,299 +13,299 @@ export default function PrivacyPolicyPage() {
         {/* Header */}
         <div className={styles.header}>
           <span className={styles.headerBadge}>
-            <Lock size={12} strokeWidth={2.5} /> Kebijakan Privasi
+            <Lock size={12} strokeWidth={2.5} /> Privacy Policy
           </span>
-          <h1 className={styles.headerTitle}>Kebijakan Privasi</h1>
+          <h1 className={styles.headerTitle}>Privacy Policy</h1>
           <div className={styles.headerMeta}>
             <p className={styles.headerDesc}>
-              ELECTROVICE ("kami") berkomitmen untuk melindungi informasi pribadi Anda. Kebijakan Privasi ini menjelaskan bagaimana kami mengumpulkan, menggunakan, mengungkapkan, dan menjaga informasi Anda saat menggunakan aplikasi mobile dan layanan ELECTROVICE.
+              ELECTROVICE ("we") is committed to protecting your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use the ELECTROVICE mobile app and services.
             </p>
             <div className={styles.lastUpdated}>
-              <span className={styles.lastUpdatedLabel}>TERAKHIR DIPERBARUI</span>
-              <span className={styles.lastUpdatedDate}>15 April 2025</span>
+              <span className={styles.lastUpdatedLabel}>LAST UPDATED</span>
+              <span className={styles.lastUpdatedDate}>April 15, 2025</span>
             </div>
           </div>
         </div>
 
-        {/* Informasi yang Kami Kumpulkan */}
+        {/* Information We Collect */}
         <section className={styles.section}>
           <div className={styles.sectionIconWrap}><ClipboardList size={22} strokeWidth={1.8} color="#2563eb" /></div>
-          <h2 className={styles.sectionTitle}>Informasi yang Kami Kumpulkan</h2>
+          <h2 className={styles.sectionTitle}>Information We Collect</h2>
           <p className={styles.sectionDesc}>
-            Kami mengumpulkan kategori informasi berikut saat Anda menggunakan aplikasi kami:
+            We collect the following categories of information when you use our app:
           </p>
           <div className={styles.twoCol}>
             <div className={styles.dataCard}>
               <div className={styles.dataCardHeader}>
                 <BadgeCheck size={18} strokeWidth={2} color="#2563eb" />
-                <h3>Data Akun &amp; Identitas</h3>
+                <h3>Account &amp; Identity Data</h3>
               </div>
-              <p className={styles.dataCardDesc}>Informasi yang Anda berikan saat mendaftar atau menggunakan layanan kami.</p>
+              <p className={styles.dataCardDesc}>Information you provide when registering or using our services.</p>
               <ul className={styles.dataList}>
-                <li>Nama Lengkap &amp; Alamat Email</li>
-                <li>Nomor Telepon</li>
-                <li>Foto Profil (opsional)</li>
-                <li>Alamat Penagihan &amp; Pengiriman</li>
+                <li>Full Name &amp; Email Address</li>
+                <li>Phone Number</li>
+                <li>Profile Photo (optional)</li>
+                <li>Billing &amp; Shipping Address</li>
               </ul>
             </div>
             <div className={styles.dataCard}>
               <div className={styles.dataCardHeader}>
                 <MapPin size={18} strokeWidth={2} color="#2563eb" />
-                <h3>Data Lokasi</h3>
+                <h3>Location Data</h3>
               </div>
-              <p className={styles.dataCardDesc}>Digunakan untuk mencocokkan Anda dengan teknisi terverifikasi terdekat.</p>
+              <p className={styles.dataCardDesc}>Used to match you with the nearest verified technician.</p>
               <ul className={styles.dataList}>
-                <li>Lokasi GPS Presisi (jika diizinkan)</li>
-                <li>Lokasi Perkiraan (kota/wilayah)</li>
-                <li>Riwayat lokasi selama sesi perbaikan aktif</li>
+                <li>Precise GPS Location (if permitted)</li>
+                <li>Approximate Location (city/region)</li>
+                <li>Location history during active repair sessions</li>
               </ul>
             </div>
             <div className={styles.dataCard}>
               <div className={styles.dataCardHeader}>
                 <Smartphone size={18} strokeWidth={2} color="#2563eb" />
-                <h3>Data Perangkat &amp; Teknis</h3>
+                <h3>Device &amp; Technical Data</h3>
               </div>
-              <p className={styles.dataCardDesc}>Dikumpulkan secara otomatis saat Anda menggunakan aplikasi.</p>
+              <p className={styles.dataCardDesc}>Automatically collected when you use the app.</p>
               <ul className={styles.dataList}>
-                <li>Model Perangkat &amp; Sistem Operasi</li>
-                <li>Identifikasi Perangkat Unik (Android ID)</li>
-                <li>Versi Aplikasi &amp; Log Crash</li>
-                <li>Alamat IP &amp; Jenis Jaringan</li>
+                <li>Device Model &amp; Operating System</li>
+                <li>Unique Device Identifier (Android ID)</li>
+                <li>App Version &amp; Crash Logs</li>
+                <li>IP Address &amp; Network Type</li>
               </ul>
             </div>
             <div className={styles.dataCard}>
               <div className={styles.dataCardHeader}>
                 <ShieldCheck size={18} strokeWidth={2} color="#2563eb" />
-                <h3>Data Transaksi &amp; Penggunaan</h3>
+                <h3>Transaction &amp; Usage Data</h3>
               </div>
-              <p className={styles.dataCardDesc}>Data yang dihasilkan melalui aktivitas Anda di platform.</p>
+              <p className={styles.dataCardDesc}>Data generated through your activity on the platform.</p>
               <ul className={styles.dataList}>
-                <li>Riwayat Pesanan Perbaikan</li>
-                <li>Catatan Pembayaran (tanpa data kartu lengkap)</li>
-                <li>Komunikasi In-App dengan Teknisi</li>
-                <li>Rating &amp; Ulasan yang Diberikan</li>
+                <li>Repair Order History</li>
+                <li>Payment Records (without full card data)</li>
+                <li>In-App Communication with Technicians</li>
+                <li>Ratings &amp; Reviews Given</li>
               </ul>
             </div>
           </div>
         </section>
 
-        {/* Cara Kami Menggunakan Informasi */}
+        {/* How We Use Your Information */}
         <section className={styles.section}>
           <div className={styles.sectionIconWrap}><Search size={22} strokeWidth={1.8} color="#2563eb" /></div>
-          <h2 className={styles.sectionTitle}>Cara Kami Menggunakan Informasi Anda</h2>
+          <h2 className={styles.sectionTitle}>How We Use Your Information</h2>
           <div className={styles.threeCol}>
             <div className={styles.useCard}>
-              <h4>Penyediaan Layanan</h4>
-              <p>Memproses pemesanan perbaikan, mencocokkan Anda dengan teknisi tersertifikasi, dan mengaktifkan sistem keamanan kode 6 digit.</p>
+              <h4>Service Delivery</h4>
+              <p>Processing repair orders, matching you with certified technicians, and activating the 6-digit code security system.</p>
             </div>
             <div className={styles.useCard}>
-              <h4>Keamanan &amp; Perlindungan</h4>
-              <p>Memverifikasi identitas teknisi, mendeteksi penipuan, dan menegakkan protokol keamanan kode OTP 6 digit kami.</p>
+              <h4>Security &amp; Protection</h4>
+              <p>Verifying technician identity, detecting fraud, and enforcing our 6-digit OTP security protocol.</p>
             </div>
             <div className={styles.useCard}>
-              <h4>Komunikasi</h4>
-              <p>Mengirimkan konfirmasi pemesanan, pembaruan status perbaikan, dan notifikasi layanan penting melalui push notification dan email.</p>
+              <h4>Communication</h4>
+              <p>Sending order confirmations, repair status updates, and important service notifications via push notifications and email.</p>
             </div>
             <div className={styles.useCard}>
-              <h4>Peningkatan Platform</h4>
-              <p>Menganalisis data penggunaan agregat untuk meningkatkan performa aplikasi, memperbaiki bug, dan mengembangkan fitur baru.</p>
+              <h4>Platform Improvement</h4>
+              <p>Analyzing aggregated usage data to improve app performance, fix bugs, and develop new features.</p>
             </div>
             <div className={styles.useCard}>
-              <h4>Pemrosesan Pembayaran</h4>
-              <p>Memfasilitasi pembayaran aman melalui mitra payment gateway pihak ketiga kami.</p>
+              <h4>Payment Processing</h4>
+              <p>Facilitating secure payments through our third-party payment gateway partners.</p>
             </div>
             <div className={styles.useCard}>
-              <h4>Kepatuhan Hukum</h4>
-              <p>Memenuhi kewajiban regulasi berdasarkan hukum Indonesia yang berlaku dan kerangka perlindungan data internasional.</p>
+              <h4>Legal Compliance</h4>
+              <p>Fulfilling regulatory obligations under applicable Indonesian law and international data protection frameworks.</p>
             </div>
           </div>
         </section>
 
-        {/* Berbagi Informasi */}
+        {/* Information Sharing */}
         <section className={styles.section}>
           <div className={styles.sectionIconWrap}><Share2 size={22} strokeWidth={1.8} color="#2563eb" /></div>
-          <h2 className={styles.sectionTitle}>Berbagi Informasi &amp; Pihak Ketiga</h2>
+          <h2 className={styles.sectionTitle}>Information Sharing &amp; Third Parties</h2>
           <p className={styles.sectionDesc}>
-            Kami tidak menjual data pribadi Anda. Kami hanya membagikan informasi Anda dalam kondisi berikut:
+            We do not sell your personal data. We only share your information under the following circumstances:
           </p>
           <div className={styles.obligationsGrid}>
             <div className={styles.obligationCard}>
               <div className={styles.obligationNum}>1</div>
               <div>
-                <strong>Teknisi</strong>
-                <p>Nama, nomor kontak, dan lokasi Anda dibagikan kepada teknisi yang ditugaskan untuk memenuhi permintaan perbaikan Anda.</p>
+                <strong>Technicians</strong>
+                <p>Your name, contact number, and location are shared with the assigned technician to fulfill your repair request.</p>
               </div>
             </div>
             <div className={styles.obligationCard}>
               <div className={styles.obligationNum}>2</div>
               <div>
-                <strong>Pemroses Pembayaran</strong>
-                <p>Kami menggunakan payment gateway pihak ketiga (misalnya Midtrans) untuk memproses transaksi dengan aman. Kami tidak menyimpan detail kartu pembayaran lengkap.</p>
+                <strong>Payment Processors</strong>
+                <p>We use third-party payment gateways (e.g., Midtrans) to process transactions securely. We do not store full payment card details.</p>
               </div>
             </div>
             <div className={styles.obligationCard}>
               <div className={styles.obligationNum}>3</div>
               <div>
-                <strong>Penyedia Analitik</strong>
-                <p>Kami menggunakan Firebase Analytics dan Crashlytics (Google) untuk memantau stabilitas dan penggunaan aplikasi — hanya data anonim atau agregat yang dibagikan.</p>
+                <strong>Analytics Providers</strong>
+                <p>We use Firebase Analytics and Crashlytics (Google) to monitor app stability and usage — only anonymous or aggregated data is shared.</p>
               </div>
             </div>
             <div className={styles.obligationCard}>
               <div className={styles.obligationNum}>4</div>
               <div>
-                <strong>Kewajiban Hukum</strong>
-                <p>Kami dapat mengungkapkan data jika diwajibkan oleh hukum, perintah pengadilan, atau untuk melindungi hak dan keselamatan ELECTROVICE serta penggunanya.</p>
+                <strong>Legal Obligations</strong>
+                <p>We may disclose data if required by law, court order, or to protect the rights and safety of ELECTROVICE and its users.</p>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Retensi Data */}
+        {/* Data Retention */}
         <section className={styles.section}>
           <div className={styles.sectionIconWrap}><Clock size={22} strokeWidth={1.8} color="#2563eb" /></div>
-          <h2 className={styles.sectionTitle}>Retensi Data</h2>
+          <h2 className={styles.sectionTitle}>Data Retention</h2>
           <p className={styles.sectionDesc}>
-            Kami menyimpan data pribadi Anda hanya selama diperlukan untuk menyediakan layanan kami dan mematuhi kewajiban hukum:
+            We retain your personal data only as long as necessary to provide our services and comply with legal obligations:
           </p>
           <div className={styles.limitationsList}>
             <div className={styles.limitationItem}>
               <BadgeCheck size={14} fill="#2563eb" color="#2563eb" />
-              <p><strong>Data Akun:</strong> Disimpan selama akun aktif. Dihapus dalam 30 hari setelah permintaan penghapusan akun yang terverifikasi.</p>
+              <p><strong>Account Data:</strong> Retained while the account is active. Deleted within 30 days after a verified account deletion request.</p>
             </div>
             <div className={styles.limitationItem}>
               <BadgeCheck size={14} fill="#2563eb" color="#2563eb" />
-              <p><strong>Catatan Transaksi:</strong> Disimpan selama 5 tahun untuk memenuhi regulasi keuangan dan pajak berdasarkan hukum Indonesia.</p>
+              <p><strong>Transaction Records:</strong> Retained for 5 years to comply with Indonesian financial and tax regulations.</p>
             </div>
             <div className={styles.limitationItem}>
               <BadgeCheck size={14} fill="#2563eb" color="#2563eb" />
-              <p><strong>Data Lokasi:</strong> Lokasi sesi aktif dihapus segera setelah sesi perbaikan selesai. Kami tidak menyimpan jejak lokasi historis.</p>
+              <p><strong>Location Data:</strong> Active session location is deleted immediately after the repair session ends. We do not store historical location trails.</p>
             </div>
             <div className={styles.limitationItem}>
               <BadgeCheck size={14} fill="#2563eb" color="#2563eb" />
-              <p><strong>Log Crash &amp; Teknis:</strong> Dihapus otomatis setelah 90 hari.</p>
+              <p><strong>Crash &amp; Technical Logs:</strong> Automatically deleted after 90 days.</p>
             </div>
           </div>
         </section>
 
-        {/* Keamanan Data */}
+        {/* Data Security */}
         <section className={styles.section}>
           <div className={styles.sectionIconWrap}><Lock size={22} strokeWidth={1.8} color="#2563eb" /></div>
-          <h2 className={styles.sectionTitle}>Keamanan Data</h2>
+          <h2 className={styles.sectionTitle}>Data Security</h2>
           <p className={styles.sectionDesc}>
-            Kami menerapkan langkah-langkah teknis dan organisasi standar industri untuk melindungi data pribadi Anda dari akses, perubahan, pengungkapan, atau penghancuran yang tidak sah.
+            We implement industry-standard technical and organizational measures to protect your personal data from unauthorized access, alteration, disclosure, or destruction.
           </p>
           <div className={styles.securityBox}>
             <div className={styles.securityItem}>
               <ShieldCheck size={24} strokeWidth={1.8} color="#f59e0b" className={styles.securityItemIcon} />
               <div>
-                <strong>Enkripsi AES-256</strong>
-                <p>Semua data saat disimpan dan dalam transit dienkripsi menggunakan standar tingkat perbankan (TLS 1.2+).</p>
+                <strong>AES-256 Encryption</strong>
+                <p>All data at rest and in transit is encrypted using banking-grade standards (TLS 1.2+).</p>
               </div>
             </div>
             <div className={styles.securityDivider} />
             <div className={styles.securityItem}>
               <Lock size={24} strokeWidth={1.8} color="#2563eb" className={styles.securityItemIcon} />
               <div>
-                <strong>Keamanan Sesi Berbasis OTP</strong>
-                <p>Setiap sesi perbaikan dilindungi oleh OTP unik 6 digit yang kedaluwarsa setelah 120 detik dan tidak pernah disimpan.</p>
+                <strong>OTP-Based Session Security</strong>
+                <p>Every repair session is protected by a unique 6-digit OTP that expires after 120 seconds and is never stored.</p>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Hak Anda */}
+        {/* Your Rights */}
         <section className={styles.section}>
           <div className={styles.sectionIconWrap}><Scale size={22} strokeWidth={1.8} color="#2563eb" /></div>
-          <h2 className={styles.sectionTitle}>Hak Anda &amp; Penghapusan Data</h2>
+          <h2 className={styles.sectionTitle}>Your Rights &amp; Data Deletion</h2>
           <p className={styles.sectionDesc}>
-            Anda memiliki kendali penuh atas data pribadi Anda. Anda dapat menggunakan hak-hak berikut kapan saja:
+            You have full control over your personal data. You may exercise the following rights at any time:
           </p>
           <div className={styles.rightsGrid}>
             <div className={styles.rightCard}>
               <Folder size={22} strokeWidth={1.8} color="#2563eb" className={styles.rightIcon} />
               <div>
-                <strong>Hak Akses</strong>
-                <p>Minta salinan semua data pribadi yang kami simpan tentang Anda dengan menghubungi kami di email di bawah.</p>
+                <strong>Right of Access</strong>
+                <p>Request a copy of all personal data we hold about you by contacting us at the email below.</p>
               </div>
             </div>
             <div className={styles.rightCard}>
               <Trash2 size={22} strokeWidth={1.8} color="#ef4444" className={styles.rightIcon} />
               <div>
-                <strong>Hak Penghapusan (Hapus Akun)</strong>
-                <p>Anda dapat menghapus akun dan semua data terkait kapan saja melalui <strong>Pengaturan → Akun → Hapus Akun</strong> di aplikasi, atau dengan mengirim email ke <strong>privacy@electrovice.app</strong>. Penghapusan diproses dalam 30 hari.</p>
+                <strong>Right to Erasure (Delete Account)</strong>
+                <p>You may delete your account and all associated data at any time via <strong>Settings → Account → Delete Account</strong> in the app, or by emailing <strong>privacy@electrovice.app</strong>. Deletion is processed within 30 days.</p>
               </div>
             </div>
             <div className={styles.rightCard}>
               <Pencil size={22} strokeWidth={1.8} color="#2563eb" className={styles.rightIcon} />
               <div>
-                <strong>Hak Perbaikan Data</strong>
-                <p>Perbarui informasi yang tidak akurat atau tidak lengkap langsung melalui pengaturan profil di aplikasi.</p>
+                <strong>Right to Rectification</strong>
+                <p>Update inaccurate or incomplete information directly through the profile settings in the app.</p>
               </div>
             </div>
             <div className={styles.rightCard}>
               <Ban size={22} strokeWidth={1.8} color="#f59e0b" className={styles.rightIcon} />
               <div>
-                <strong>Hak Keberatan / Opt Out</strong>
-                <p>Berhenti dari pemrosesan data non-esensial (misalnya email pemasaran) kapan saja melalui pengaturan aplikasi atau dengan menghubungi kami.</p>
+                <strong>Right to Object / Opt Out</strong>
+                <p>Opt out of non-essential data processing (e.g., marketing emails) at any time through app settings or by contacting us.</p>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Privasi Anak */}
+        {/* Children's Privacy */}
         <section className={styles.section}>
           <div className={styles.sectionIconWrap}><Baby size={22} strokeWidth={1.8} color="#2563eb" /></div>
-          <h2 className={styles.sectionTitle}>Privasi Anak-Anak</h2>
+          <h2 className={styles.sectionTitle}>Children's Privacy</h2>
           <p className={styles.sectionDesc}>
-            ELECTROVICE tidak ditujukan untuk pengguna di bawah usia 13 tahun. Kami tidak dengan sengaja mengumpulkan informasi pribadi dari anak di bawah 13 tahun. Jika kami mengetahui bahwa seorang anak di bawah 13 tahun telah memberikan data pribadi kepada kami, kami akan segera menghapus informasi tersebut. Jika Anda adalah orang tua atau wali dan percaya anak Anda telah memberikan informasi pribadi kepada kami, silakan hubungi kami di <strong>privacy@electrovice.app</strong>.
+            ELECTROVICE is not intended for users under the age of 13. We do not knowingly collect personal information from children under 13. If we become aware that a child under 13 has provided us with personal data, we will promptly delete that information. If you are a parent or guardian and believe your child has provided us with personal information, please contact us at <strong>privacy@electrovice.app</strong>.
           </p>
         </section>
 
-        {/* Cookie */}
+        {/* Cookies */}
         <section className={styles.section}>
           <div className={styles.sectionIconWrap}><Cookie size={22} strokeWidth={1.8} color="#2563eb" /></div>
-          <h2 className={styles.sectionTitle}>Cookie &amp; Teknologi Pelacakan</h2>
+          <h2 className={styles.sectionTitle}>Cookies &amp; Tracking Technologies</h2>
           <p className={styles.sectionDesc}>
-            Aplikasi mobile kami tidak menggunakan cookie browser. Kami menggunakan teknologi pelacakan berikut dalam aplikasi:
+            Our mobile app does not use browser cookies. We use the following tracking technologies within the app:
           </p>
           <div className={styles.cookieTags}>
             <span className={styles.cookieTagGreen}>
-              <BadgeCheck size={13} strokeWidth={2} /> Firebase Analytics (anonim)
+              <BadgeCheck size={13} strokeWidth={2} /> Firebase Analytics (anonymous)
             </span>
             <span className={styles.cookieTagGreen}>
-              <BadgeCheck size={13} strokeWidth={2} /> Crashlytics (laporan error)
+              <BadgeCheck size={13} strokeWidth={2} /> Crashlytics (error reporting)
             </span>
             <span className={styles.cookieTagGreen}>
-              <BadgeCheck size={13} strokeWidth={2} /> Token Sesi (autentikasi)
+              <BadgeCheck size={13} strokeWidth={2} /> Session Tokens (authentication)
             </span>
             <span className={styles.cookieTagGray}>
-              <Ban size={13} strokeWidth={2} /> Pelacak iklan pihak ketiga (Tidak digunakan)
+              <Ban size={13} strokeWidth={2} /> Third-party ad trackers (Not used)
             </span>
           </div>
         </section>
 
-        {/* Perubahan Kebijakan */}
+        {/* Policy Changes */}
         <section className={styles.section}>
           <div className={styles.sectionIconWrap}><Pencil size={22} strokeWidth={1.8} color="#2563eb" /></div>
-          <h2 className={styles.sectionTitle}>Perubahan Kebijakan Privasi Ini</h2>
+          <h2 className={styles.sectionTitle}>Changes to This Privacy Policy</h2>
           <p className={styles.sectionDesc}>
-            Kami dapat memperbarui Kebijakan Privasi ini dari waktu ke waktu. Saat kami membuat perubahan signifikan, kami akan memberi tahu Anda melalui aplikasi atau email. Tanggal "Terakhir Diperbarui" di bagian atas halaman ini selalu mencerminkan revisi terbaru. Penggunaan aplikasi ELECTROVICE yang berkelanjutan setelah perubahan apa pun merupakan persetujuan Anda terhadap kebijakan yang diperbarui.
+            We may update this Privacy Policy from time to time. When we make significant changes, we will notify you through the app or by email. The "Last Updated" date at the top of this page always reflects the most recent revision. Your continued use of the ELECTROVICE app after any changes constitutes your acceptance of the updated policy.
           </p>
         </section>
 
-        {/* Hubungi Kami */}
+        {/* Contact Us */}
         <section className={styles.agreementSection}>
           <div className={styles.sectionIconWrap} style={{ marginBottom: '1rem' }}><Mail size={22} strokeWidth={1.8} color="#2563eb" /></div>
-          <h2 className={styles.agreementTitle}>Hubungi Kami</h2>
+          <h2 className={styles.agreementTitle}>Contact Us</h2>
           <p className={styles.agreementDesc}>
-            Jika Anda memiliki pertanyaan, kekhawatiran, atau permintaan terkait Kebijakan Privasi ini atau praktik data kami, silakan hubungi kami:
+            If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us:
           </p>
           <div className={styles.textBlock}>
             <p><strong>ELECTROVICE</strong></p>
             <p>Email: <strong>privacy@electrovice.app</strong></p>
-            <p>Subjek: "Permintaan Privasi – [Nama Anda]"</p>
+            <p>Subject: "Privacy Request – [Your Name]"</p>
             <p style={{ marginTop: '0.75rem', fontSize: '0.88rem', color: '#64748b' }}>
-              Kami akan merespons semua permintaan terkait privasi dalam 14 hari kerja.
+              We will respond to all privacy-related requests within 14 business days.
             </p>
           </div>
         </section>

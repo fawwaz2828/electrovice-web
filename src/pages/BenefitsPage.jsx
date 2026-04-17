@@ -12,14 +12,14 @@ export default function BenefitsPage() {
         <div className={styles.heroContainer}>
           <div className={styles.heroContent}>
             <span className={styles.heroBadge}>
-              <Zap size={13} strokeWidth={2.5} /> Platform Digital Perbaikan
+              <Zap size={13} strokeWidth={2.5} /> Digital Repair Platform
             </span>
             <h1 className={styles.heroTitle}>
-              Servis Praktis.<br />
-              <span className={styles.heroHighlight}>Dampak Nyata.</span>
+              Practical Service.<br />
+              <span className={styles.heroHighlight}>Real Impact.</span>
             </h1>
             <p className={styles.heroDesc}>
-              ELECTROVICE hadir untuk memudahkan akses perbaikan yang aman, transparan, dan ramah lingkungan — bagi pengguna, teknisi UMKM, maupun masyarakat yang peduli e-waste.
+              ELECTROVICE is here to make access to safe, transparent, and eco-friendly repairs easier — for users, MSME technicians, and communities that care about e-waste.
             </p>
           </div>
           <div className={styles.heroVisual}>
@@ -32,7 +32,7 @@ export default function BenefitsPage() {
               </div>
               <p className={styles.otpSub}>Share only with your technician</p>
             </div>
-           
+
           </div>
         </div>
       </section>
@@ -42,10 +42,10 @@ export default function BenefitsPage() {
         <div className={styles.container}>
           <div className={styles.twoCol}>
             <div className={styles.colText}>
-              <span className={styles.pill}>Untuk Pengguna</span>
-              <h2 className={styles.sectionTitle}>Servis Tanpa Ribet</h2>
+              <span className={styles.pill}>For Users</span>
+              <h2 className={styles.sectionTitle}>Hassle-Free Service</h2>
               <p className={styles.sectionDesc}>
-                Bagi kamu yang tidak punya waktu, tenaga, atau keahlian teknis — ELECTROVICE menghadirkan teknisi profesional langsung ke lokasimu.
+                For those who don't have the time, energy, or technical expertise — ELECTROVICE brings professional technicians directly to your location.
               </p>
               <ul className={styles.featureList}>
                 <li>
@@ -53,8 +53,8 @@ export default function BenefitsPage() {
                     <BarChart2 size={22} strokeWidth={1.8} color="#2563eb" />
                   </span>
                   <div>
-                    <strong>Pencarian Berbasis GPS</strong>
-                    <p>Sistem otomatis menemukan teknisi terdekat sesuai kategori kerusakan dan spesialisasi keahlian.</p>
+                    <strong>GPS-Based Search</strong>
+                    <p>The system automatically finds the nearest technician based on damage category and area of expertise.</p>
                   </div>
                 </li>
                 <li>
@@ -62,8 +62,8 @@ export default function BenefitsPage() {
                     <Clock size={22} strokeWidth={1.8} color="#2563eb" />
                   </span>
                   <div>
-                    <strong>Riwayat Pemesanan Digital</strong>
-                    <p>Semua detail perbaikan tersimpan otomatis sebagai dokumen garansi digital yang bisa diakses kapan saja.</p>
+                    <strong>Digital Order History</strong>
+                    <p>All repair details are automatically saved as a digital warranty document accessible anytime.</p>
                   </div>
                 </li>
               </ul>
@@ -87,17 +87,17 @@ export default function BenefitsPage() {
       <section className={styles.sectionAlt}>
         <div className={styles.container}>
           <div className={styles.sectionHeader}>
-            <span className={styles.pill}>Untuk Teknisi &amp; UMKM Bengkel</span>
-            <h2 className={styles.sectionTitle}>Digitalisasi Usaha Servismu</h2>
+            <span className={styles.pill}>For Technicians &amp; Workshop MSMEs</span>
+            <h2 className={styles.sectionTitle}>Digitize Your Service Business</h2>
             <p className={styles.sectionDesc}>
-              Bergabung sebagai mitra teknisi ELECTROVICE untuk memperluas jangkauan pelanggan, mengelola pesanan secara digital, dan membangun reputasi profesional.
+              Join as an ELECTROVICE technician partner to expand your customer reach, manage orders digitally, and build a professional reputation.
             </p>
           </div>
           <div className={styles.twoColReverse}>
             <div className={styles.techCard}>
-              <h3 className={styles.techCardTitle}>Pusat Manajemen Digital</h3>
+              <h3 className={styles.techCardTitle}>Digital Management Hub</h3>
               <p className={styles.techCardDesc}>
-                Kelola semua pesanan, jadwal, status perbaikan, dan catatan pembayaran dari satu dashboard. Bangun portofolio digital yang meningkatkan kredibilitas usahamu.
+                Manage all orders, schedules, repair status, and payment records from one dashboard. Build a digital portfolio that enhances your business credibility.
               </p>
               <div className={styles.techStats}>
                 <div className={styles.techStat}><span>Job History</span></div>
@@ -109,9 +109,9 @@ export default function BenefitsPage() {
               <div className={styles.credBadge}>
                 <Zap size={13} strokeWidth={2.5} /> Instant Credibility
               </div>
-              <h3 className={styles.credTitle}>Bangun Kepercayaan</h3>
+              <h3 className={styles.credTitle}>Build Trust</h3>
               <p className={styles.credDesc}>
-                Dapatkan badge terverifikasi, rating, dan ulasan pelanggan. Tingkatkan kredibilitas usahamu sebelum bertemu pelanggan pertama.
+                Get a verified badge, ratings, and customer reviews. Boost your business credibility before meeting your first customer.
               </p>
               <ul className={styles.credList}>
                 <li><CheckCircle2 size={15} strokeWidth={2} /> Verified Profile</li>
@@ -129,11 +129,11 @@ export default function BenefitsPage() {
           <div className={styles.twoCol}>
             <div className={styles.colText}>
               <span className={styles.pill}>
-                <Leaf size={13} strokeWidth={2} /> Untuk Lingkungan
+                <Leaf size={13} strokeWidth={2} /> For the Environment
               </span>
-              <h2 className={styles.sectionTitle}>Kurangi E-Waste Bersama</h2>
+              <h2 className={styles.sectionTitle}>Reduce E-Waste Together</h2>
               <p className={styles.sectionDesc}>
-                Dengan memudahkan akses perbaikan, ELECTROVICE mendukung budaya repair culture — memperpanjang usia pakai perangkat dan menekan limbah elektronik (e-waste) di Indonesia.
+                By making repair access easier, ELECTROVICE supports a repair culture — extending the lifespan of devices and reducing electronic waste (e-waste) in Indonesia.
               </p>
               <div className={styles.ecoStats}>
                 <div className={styles.ecoStat}>
@@ -146,14 +146,14 @@ export default function BenefitsPage() {
                 </div>
               </div>
               <p className={styles.ecoQuote}>
-                "Memperbaiki bukan sekadar servis — ini cara kita menjaga investasi dan melindungi lingkungan untuk generasi berikutnya."
+                "Repairing is more than just a service — it's how we protect our investments and preserve the environment for future generations."
               </p>
             </div>
             <div className={styles.colImage}>
               <div className={styles.ecoImageFrame}>
                 <img
                   src="https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?w=500&h=400&fit=crop"
-                  alt="Daur ulang dan pengurangan e-waste"
+                  alt="Recycling and e-waste reduction"
                 />
                 <div className={styles.ecoTag}>
                   <Sprout size={13} strokeWidth={2} /> Carbon Neutral Repairs
@@ -172,15 +172,15 @@ export default function BenefitsPage() {
               <div className={styles.featureCardIconWrap}>
                 <MapPin size={26} strokeWidth={1.8} color="#2563eb" />
               </div>
-              <h3>Pelacakan Real-Time</h3>
-              <p>Pantau progres perbaikan secara langsung. Tahu kapan teknisi tiba, apa yang ditemukan, dan kapan perangkatmu siap diambil.</p>
+              <h3>Real-Time Tracking</h3>
+              <p>Monitor repair progress live. Know when the technician arrives, what was found, and when your device is ready.</p>
             </div>
             <div className={styles.featureCard}>
               <div className={styles.featureCardIconWrap}>
                 <ShieldCheck size={26} strokeWidth={1.8} color="#2563eb" />
               </div>
-              <h3>Kode Verifikasi 6 Digit</h3>
-              <p>Kode unik yang diterbitkan sistem untuk setiap pemesanan. Tidak ada pekerjaan dimulai sebelum teknisi memverifikasi kode ini — lapisan perlindungan perangkatmu.</p>
+              <h3>6-Digit Verification Code</h3>
+              <p>A unique code issued by the system for every order. No work starts before the technician verifies this code — your device's layer of protection.</p>
             </div>
           </div>
         </div>
@@ -189,9 +189,9 @@ export default function BenefitsPage() {
       {/* CTA */}
       <section className={styles.ctaSection}>
         <div className={styles.ctaContainer}>
-          <h2 className={styles.ctaTitle}>Siap merasakan servis yang lebih baik?</h2>
+          <h2 className={styles.ctaTitle}>Ready to experience better service?</h2>
           <p className={styles.ctaDesc}>
-            Download ELECTROVICE dan jadilah bagian dari ekosistem perbaikan digital pertama di Indonesia.
+            Download ELECTROVICE and be part of Indonesia's first digital repair ecosystem.
           </p>
         </div>
       </section>

@@ -4,18 +4,18 @@ import styles from './Protocol.module.css'
 const steps = [
   {
     Icon: ShieldCheck,
-    title: 'Kode Unik 6 Digit',
-    desc: 'Setelah memesan teknisi, aplikasi menerbitkan kode unik 6 digit. Berikan kode ini hanya kepada teknisi yang datang untuk memverifikasi identitasnya.',
+    title: 'Unique 6-Digit Code',
+    desc: 'After booking a technician, the app issues a unique 6-digit code. Share this code only with the technician who arrives to verify their identity.',
   },
   {
     Icon: ClipboardList,
-    title: 'Pelacakan Real-Time',
-    desc: 'Pantau setiap tahap perbaikan secara langsung — dari pengecekan awal, penggantian suku cadang, hingga selesai. Transparan tanpa kejutan tersembunyi.',
+    title: 'Real-Time Tracking',
+    desc: 'Monitor every stage of the repair live — from initial inspection, parts replacement, to completion. Transparent with no hidden surprises.',
   },
   {
     Icon: BadgeCheck,
-    title: 'Pop-Up Notifikasi Instan',
-    desc: 'Jika teknisi tiba-tiba terkendala, notifikasi pop-up langsung dikirim sehingga kamu bisa segera mencari teknisi pengganti tanpa menunggu.',
+    title: 'Instant Pop-Up Notifications',
+    desc: 'If a technician suddenly encounters an issue, a pop-up notification is sent immediately so you can quickly find a replacement without waiting.',
   },
 ]
 
@@ -24,10 +24,10 @@ export default function Protocol() {
     <section id="services" className={styles.section}>
       <div className={styles.container}>
         <div className={styles.header}>
-          <span className={styles.pill}>Keunggulan Kami</span>
-          <h2 className={styles.title}>Protokol 6 Digit ELECTROVICE</h2>
+          <span className={styles.pill}>Our Advantage</span>
+          <h2 className={styles.title}>ELECTROVICE 6-Digit Protocol</h2>
           <p className={styles.subtitle}>
-            Sistem kepercayaan unik kami memastikan transparansi penuh antara teknisi dan pelanggan di setiap tahap perbaikan.
+            Our unique trust system ensures full transparency between technicians and customers at every stage of the repair.
           </p>
         </div>
         <div className={styles.steps}>

@@ -17,17 +17,17 @@ export default function Navbar() {
         <ul className={`${styles.navLinks} ${open ? styles.navOpen : ''}`}>
           <li>
             <NavLink to="/" end className={({ isActive }) => isActive ? styles.activeLink : ''} onClick={() => setOpen(false)}>
-              Layanan
+              Services
             </NavLink>
           </li>
           <li>
             <NavLink to="/how-it-works" className={({ isActive }) => isActive ? styles.activeLink : ''} onClick={() => setOpen(false)}>
-              Cara Kerja
+              How It Works
             </NavLink>
           </li>
           <li>
             <NavLink to="/benefits" className={({ isActive }) => isActive ? styles.activeLink : ''} onClick={() => setOpen(false)}>
-              Keunggulan
+              Benefits
             </NavLink>
           </li>
         </ul>

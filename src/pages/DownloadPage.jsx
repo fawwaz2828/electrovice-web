@@ -8,7 +8,7 @@ export default function DownloadPage() {
         <img src={electroviceLogo} alt="Electrovice" className={styles.logo} />
         <h1 className={styles.title}>Download ELECTROVICE</h1>
         <p className={styles.subtitle}>
-          Temukan teknisi terpercaya, pantau perbaikan secara real-time, dan bayar dengan aman — semua dalam satu aplikasi.
+          Find trusted technicians, monitor repairs in real-time, and pay securely — all in one app.
         </p>
         <a
           href="https://play.google.com/store"
@@ -22,7 +22,7 @@ export default function DownloadPage() {
             className={styles.playstoreBadge}
           />
         </a>
-        <p className={styles.note}>Tersedia untuk Android. iOS segera hadir.</p>
+        <p className={styles.note}>Available for Android. iOS coming soon.</p>
       </div>
     </div>
   )

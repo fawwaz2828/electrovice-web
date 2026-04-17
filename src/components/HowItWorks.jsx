@@ -6,26 +6,26 @@ const steps = [
   {
     num: '01',
     Icon: LayoutGrid,
-    title: 'Pilih Kategori Kerusakan',
-    desc: 'Pilih kategori perangkat elektronik atau kendaraanmu. GPS otomatis menampilkan teknisi terdekat dengan spesialisasi yang relevan.',
+    title: 'Choose Repair Category',
+    desc: 'Select your electronics or vehicle category. GPS automatically displays the nearest technicians with relevant specializations.',
   },
   {
     num: '02',
     Icon: KeyRound,
-    title: 'Kode 6 Digit Diterbitkan',
-    desc: 'Setelah memilih teknisi, aplikasi menerbitkan kode unik 6 digit sebagai alat verifikasi identitas mitra saat tiba di lokasi.',
+    title: '6-Digit Code Issued',
+    desc: 'After selecting a technician, the app issues a unique 6-digit code as an identity verification tool when they arrive at your location.',
   },
   {
     num: '03',
     Icon: CheckCircle2,
-    title: 'Pantau Perbaikan Live',
-    desc: 'Pantau setiap tahap perbaikan secara real-time langsung dari aplikasi. Kamu tahu persis apa yang sedang dikerjakan teknisi.',
+    title: 'Monitor Repair Live',
+    desc: 'Track every stage of the repair in real-time directly from the app. You know exactly what the technician is working on.',
   },
   {
     num: '04',
     Icon: CreditCard,
-    title: 'Bayar & Simpan Riwayat',
-    desc: 'Pembayaran aman via aplikasi. Seluruh detail perbaikan tersimpan otomatis di Riwayat Pemesanan sebagai dokumen garansi digital.',
+    title: 'Pay & Save History',
+    desc: 'Secure payment via the app. All repair details are automatically saved in Order History as a digital warranty document.',
   },
 ]
 
@@ -34,10 +34,10 @@ export default function HowItWorks() {
     <section className={styles.section}>
       <div className={styles.container}>
         <div className={styles.left}>
-          <span className={styles.pill}>Cara Kerja</span>
-          <h2 className={styles.title}>Mudah dari<br />Pesan hingga Selesai</h2>
+          <span className={styles.pill}>How It Works</span>
+          <h2 className={styles.title}>Simple from<br />Order to Done</h2>
           <p className={styles.subtitle}>
-            Empat langkah sederhana yang dirancang untuk melindungi kepentinganmu dan memastikan pengalaman servis yang aman setiap saat.
+            Four simple steps designed to protect your interests and ensure a safe service experience every time.
           </p>
           <div className={styles.steps}>
             {steps.map(({ num, Icon, title, desc }, i) => (
@@ -61,14 +61,14 @@ export default function HowItWorks() {
               <span className={styles.dot} />
               Live Dashboard
             </div>
-            <h3 className={styles.cardTitle}>Kontrol Penuh.<br />Transparan Sepenuhnya.</h3>
+            <h3 className={styles.cardTitle}>Full Control.<br />Complete Transparency.</h3>
             <p className={styles.cardSubtitle}>
-              Pantau setiap tahap servis secara real-time. Visibilitas penuh dari pemesanan hingga selesai.
+              Monitor every stage of service in real-time. Full visibility from booking to completion.
             </p>
             <div className={styles.metrics}>
               <div className={styles.metric}>
                 <span className={styles.metricValue}>6-Digit</span>
-                <span className={styles.metricLabel}>Kode Verifikasi</span>
+                <span className={styles.metricLabel}>Verification Code</span>
               </div>
               <div className={styles.metric}>
                 <span className={styles.metricValue}>Real-time</span>
@@ -76,7 +76,7 @@ export default function HowItWorks() {
               </div>
               <div className={styles.metric}>
                 <span className={styles.metricValue}>100%</span>
-                <span className={styles.metricLabel}>Transparan</span>
+                <span className={styles.metricLabel}>Transparent</span>
               </div>
             </div>
             <div className={styles.progressSection}>

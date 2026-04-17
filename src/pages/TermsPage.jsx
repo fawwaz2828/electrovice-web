@@ -12,244 +12,244 @@ export default function TermsPage() {
         {/* Header */}
         <div className={styles.header}>
           <span className={styles.headerBadge}>
-            <FileText size={12} strokeWidth={2.5} /> Perjanjian Legal
+            <FileText size={12} strokeWidth={2.5} /> Legal Agreement
           </span>
           <h1 className={styles.headerTitleLarge}>
-            Syarat &amp; <span className={styles.headerTitleBlue}>Ketentuan</span>
+            Terms &amp; <span className={styles.headerTitleBlue}>Conditions</span>
           </h1>
           <div className={styles.headerMeta}>
             <p className={styles.headerDesc}>
-              Harap baca Syarat &amp; Ketentuan ini dengan seksama sebelum menggunakan aplikasi mobile dan platform ELECTROVICE. Dengan mengakses atau menggunakan layanan kami, Anda menyetujui untuk terikat oleh ketentuan ini.
+              Please read these Terms &amp; Conditions carefully before using the ELECTROVICE mobile app and platform. By accessing or using our services, you agree to be bound by these terms.
             </p>
             <div className={styles.lastUpdated}>
-              <span className={styles.lastUpdatedLabel}>TERAKHIR DIPERBARUI</span>
-              <span className={styles.lastUpdatedDate}>15 April 2025</span>
+              <span className={styles.lastUpdatedLabel}>LAST UPDATED</span>
+              <span className={styles.lastUpdatedDate}>April 15, 2025</span>
             </div>
           </div>
         </div>
 
-        {/* Penerimaan Ketentuan */}
+        {/* Acceptance of Terms */}
         <section className={styles.section}>
           <div className={styles.sectionIconWrap}><FileText size={22} strokeWidth={1.8} color="#2563eb" /></div>
-          <h2 className={styles.sectionTitle}>1. Penerimaan Ketentuan</h2>
+          <h2 className={styles.sectionTitle}>1. Acceptance of Terms</h2>
           <div className={styles.textBlock}>
             <p>
-              Dengan mengunduh, menginstal, atau menggunakan aplikasi ELECTROVICE ("Aplikasi") atau layanan terkait ("Layanan"), Anda ("Pengguna") menyetujui untuk terikat oleh Syarat &amp; Ketentuan ("Ketentuan") ini dan Kebijakan Privasi kami. Jika Anda tidak menyetujui Ketentuan ini, jangan gunakan Aplikasi.
+              By downloading, installing, or using the ELECTROVICE application ("App") or related services ("Services"), you ("User") agree to be bound by these Terms &amp; Conditions ("Terms") and our Privacy Policy. If you do not agree to these Terms, do not use the App.
             </p>
             <p>
-              Ketentuan ini merupakan perjanjian yang mengikat secara hukum antara Anda dan ELECTROVICE. Kami berhak mengubah Ketentuan ini kapan saja. Penggunaan Aplikasi yang berkelanjutan setelah perubahan apa pun merupakan persetujuan Anda terhadap Ketentuan yang direvisi. Kami akan memberi tahu pengguna tentang perubahan material melalui Aplikasi atau email.
+              These Terms constitute a legally binding agreement between you and ELECTROVICE. We reserve the right to modify these Terms at any time. Your continued use of the App after any changes constitutes your acceptance of the revised Terms. We will notify users of material changes through the App or by email.
             </p>
           </div>
         </section>
 
-        {/* Deskripsi Layanan */}
+        {/* Service Description */}
         <section className={styles.section}>
           <div className={styles.sectionIconWrap}><Globe size={22} strokeWidth={1.8} color="#2563eb" /></div>
-          <h2 className={styles.sectionTitle}>2. Deskripsi Layanan</h2>
+          <h2 className={styles.sectionTitle}>2. Service Description</h2>
           <div className={styles.textBlock}>
             <p>
-              ELECTROVICE adalah platform marketplace yang menghubungkan pengguna ("Pelanggan") dengan teknisi perbaikan independen terverifikasi ("Teknisi") untuk layanan perbaikan elektronik, peralatan listrik, dan kendaraan. ELECTROVICE bertindak sebagai platform perantara dan bukan merupakan penyedia layanan perbaikan itu sendiri.
+              ELECTROVICE is a marketplace platform that connects users ("Customers") with verified independent repair technicians ("Technicians") for electronics, electrical appliance, and vehicle repair services. ELECTROVICE acts as an intermediary platform and is not itself a repair service provider.
             </p>
             <p>
-              Kami menyediakan alat termasuk pencocokan teknisi berbasis GPS, sesi perbaikan aman dengan kode OTP, pelacakan perbaikan real-time, dan pemrosesan pembayaran aman dalam aplikasi. Kualitas pekerjaan perbaikan sepenuhnya merupakan tanggung jawab Teknisi yang bersangkutan.
+              We provide tools including GPS-based technician matching, secure OTP-code repair sessions, real-time repair tracking, and secure in-app payment processing. The quality of repair work is solely the responsibility of the respective Technician.
             </p>
           </div>
         </section>
 
-        {/* Kelayakan Pengguna */}
+        {/* User Eligibility */}
         <section className={styles.section}>
           <div className={styles.sectionIconWrap}><User size={22} strokeWidth={1.8} color="#2563eb" /></div>
-          <h2 className={styles.sectionTitle}>3. Kelayakan &amp; Kewajiban Pengguna</h2>
-          <p className={styles.sectionDesc}>Untuk menggunakan ELECTROVICE, Anda harus memenuhi persyaratan berikut dan menyetujui kewajiban ini:</p>
+          <h2 className={styles.sectionTitle}>3. User Eligibility &amp; Obligations</h2>
+          <p className={styles.sectionDesc}>To use ELECTROVICE, you must meet the following requirements and agree to these obligations:</p>
           <div className={styles.obligationsGrid}>
             <div className={styles.obligationCard}>
               <div className={styles.obligationNum}>1</div>
               <div>
-                <strong>Batas Usia</strong>
-                <p>Anda harus berusia minimal 13 tahun untuk menggunakan Aplikasi ini. Pengguna di bawah 18 tahun harus mendapatkan persetujuan orang tua atau wali.</p>
+                <strong>Age Requirement</strong>
+                <p>You must be at least 13 years old to use this App. Users under 18 must obtain parental or guardian consent.</p>
               </div>
             </div>
             <div className={styles.obligationCard}>
               <div className={styles.obligationNum}>2</div>
               <div>
-                <strong>Informasi Akurat</strong>
-                <p>Anda menyetujui untuk memberikan informasi yang benar, akurat, dan lengkap saat mendaftar dan menjaga informasi akun Anda tetap terkini.</p>
+                <strong>Accurate Information</strong>
+                <p>You agree to provide true, accurate, and complete information when registering and to keep your account information up to date.</p>
               </div>
             </div>
             <div className={styles.obligationCard}>
               <div className={styles.obligationNum}>3</div>
               <div>
-                <strong>Keamanan Akun</strong>
-                <p>Anda sepenuhnya bertanggung jawab atas kerahasiaan kredensial login Anda dan semua aktivitas yang terjadi di bawah akun Anda.</p>
+                <strong>Account Security</strong>
+                <p>You are solely responsible for maintaining the confidentiality of your login credentials and all activities that occur under your account.</p>
               </div>
             </div>
             <div className={styles.obligationCard}>
               <div className={styles.obligationNum}>4</div>
               <div>
-                <strong>Kepatuhan Hukum</strong>
-                <p>Penggunaan platform Anda tidak boleh melanggar hukum atau peraturan lokal, nasional, atau internasional yang berlaku.</p>
+                <strong>Legal Compliance</strong>
+                <p>Your use of the platform must not violate any applicable local, national, or international laws or regulations.</p>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Perilaku Terlarang */}
+        {/* Prohibited Conduct */}
         <section className={styles.section}>
           <div className={styles.sectionIconWrap}><Ban size={22} strokeWidth={1.8} color="#2563eb" /></div>
-          <h2 className={styles.sectionTitle}>4. Perilaku yang Dilarang</h2>
-          <p className={styles.sectionDesc}>Anda menyetujui untuk tidak:</p>
+          <h2 className={styles.sectionTitle}>4. Prohibited Conduct</h2>
+          <p className={styles.sectionDesc}>You agree not to:</p>
           <div className={styles.limitationsList}>
             <div className={styles.limitationItem}>
               <Circle size={8} fill="#ef4444" color="#ef4444" />
-              <p>Menggunakan Aplikasi untuk tujuan penipuan, melanggar hukum, atau tidak sah.</p>
+              <p>Use the App for fraudulent, unlawful, or unauthorized purposes.</p>
             </div>
             <div className={styles.limitationItem}>
               <Circle size={8} fill="#ef4444" color="#ef4444" />
-              <p>Menyamar sebagai orang atau entitas lain, atau menyalahartikan afiliasi Anda dengan orang atau entitas mana pun.</p>
+              <p>Impersonate any person or entity, or misrepresent your affiliation with any person or entity.</p>
             </div>
             <div className={styles.limitationItem}>
               <Circle size={8} fill="#ef4444" color="#ef4444" />
-              <p>Melewati, menonaktifkan, atau mengganggu sistem keamanan OTP atau fitur keamanan lainnya dari Aplikasi.</p>
+              <p>Bypass, disable, or interfere with the OTP security system or other security features of the App.</p>
             </div>
             <div className={styles.limitationItem}>
               <Circle size={8} fill="#ef4444" color="#ef4444" />
-              <p>Mengambil atau mengumpulkan data dari platform tanpa izin tertulis eksplisit dari ELECTROVICE.</p>
+              <p>Scrape or collect data from the platform without explicit written permission from ELECTROVICE.</p>
             </div>
             <div className={styles.limitationItem}>
               <Circle size={8} fill="#ef4444" color="#ef4444" />
-              <p>Mengirimkan virus, malware, atau kode berbahaya lainnya melalui platform.</p>
+              <p>Transmit viruses, malware, or other harmful code through the platform.</p>
             </div>
             <div className={styles.limitationItem}>
               <Circle size={8} fill="#ef4444" color="#ef4444" />
-              <p>Melecehkan, menyalahgunakan, atau menyakiti teknisi, pelanggan, atau staf ELECTROVICE.</p>
+              <p>Harass, abuse, or harm technicians, customers, or ELECTROVICE staff.</p>
             </div>
           </div>
         </section>
 
-        {/* Protokol Keamanan OTP */}
+        {/* OTP Security Protocol */}
         <section className={styles.mandateSection}>
           <div className={styles.mandateInner}>
             <div className={styles.mandateHeader}>
               <Lock size={22} strokeWidth={1.8} color="#fff" />
-              <h2 className={styles.mandateTitle}>5. Protokol Keamanan OTP</h2>
+              <h2 className={styles.mandateTitle}>5. OTP Security Protocol</h2>
             </div>
             <p className={styles.mandateDesc}>
-              Untuk memastikan integritas setiap sesi perbaikan, ELECTROVICE menggunakan sistem One-Time Password (OTP) 6 digit. Kode ini harus dipertukarkan antara Pelanggan dan Teknisi yang ditugaskan sebelum pekerjaan perbaikan dimulai.
+              To ensure the integrity of every repair session, ELECTROVICE uses a 6-digit One-Time Password (OTP) system. This code must be exchanged between the Customer and the assigned Technician before repair work begins.
             </p>
             <div className={styles.mandateCols}>
               <div className={styles.mandateCard}>
-                <h4>Kode Dinamis</h4>
-                <p>Setiap sesi perbaikan menghasilkan OTP unik 6 digit secara real-time. Kode hanya berlaku untuk sesi tersebut.</p>
+                <h4>Dynamic Code</h4>
+                <p>Each repair session generates a unique 6-digit OTP in real-time. The code is only valid for that session.</p>
               </div>
               <div className={styles.mandateCard}>
-                <h4>Kebijakan Tanpa Jejak</h4>
-                <p>Kode OTP kedaluwarsa setelah 120 detik dan tidak pernah disimpan di server kami setelah kedaluwarsa. Bagikan kode Anda hanya kepada teknisi yang ditugaskan.</p>
+                <h4>No-Trace Policy</h4>
+                <p>The OTP expires after 120 seconds and is never stored on our servers after expiration. Share your code only with the assigned technician.</p>
               </div>
             </div>
             <p className={styles.mandateWarning}>
-              <AlertTriangle size={14} strokeWidth={2} /> ELECTROVICE tidak akan pernah meminta kode OTP Anda melalui telepon, SMS, atau email. Jangan pernah membagikannya kepada siapa pun selain teknisi yang ditugaskan secara langsung.
+              <AlertTriangle size={14} strokeWidth={2} /> ELECTROVICE will never ask for your OTP via phone, SMS, or email. Never share it with anyone other than the assigned technician in person.
             </p>
           </div>
         </section>
 
-        {/* Kekayaan Intelektual */}
+        {/* Intellectual Property */}
         <section className={styles.section}>
           <div className={styles.sectionIconWrap}><ShieldCheck size={22} strokeWidth={1.8} color="#2563eb" /></div>
-          <h2 className={styles.sectionTitle}>6. Kekayaan Intelektual</h2>
+          <h2 className={styles.sectionTitle}>6. Intellectual Property</h2>
           <div className={styles.textBlock}>
             <p>
-              Aplikasi ELECTROVICE, termasuk konten, fitur, desain, logo, merek dagang, dan perangkat lunaknya, dimiliki oleh ELECTROVICE dan dilindungi oleh hukum kekayaan intelektual yang berlaku. Anda diberikan lisensi terbatas, non-eksklusif, tidak dapat dipindahtangankan, dan dapat dicabut untuk menggunakan Aplikasi semata-mata untuk keperluan pribadi, non-komersial.
+              The ELECTROVICE application, including its content, features, design, logos, trademarks, and software, is owned by ELECTROVICE and protected by applicable intellectual property laws. You are granted a limited, non-exclusive, non-transferable, and revocable license to use the App solely for personal, non-commercial purposes.
             </p>
             <p>
-              Anda tidak boleh menyalin, memodifikasi, mendistribusikan, menjual, atau menyewakan bagian mana pun dari Aplikasi atau kontennya, maupun merekayasa balik atau mencoba mengekstrak kode sumber Aplikasi, kecuali diizinkan oleh hukum yang berlaku.
+              You may not copy, modify, distribute, sell, or lease any part of the App or its content, nor reverse engineer or attempt to extract the App's source code, except as permitted by applicable law.
             </p>
           </div>
         </section>
 
-        {/* Batasan Layanan */}
+        {/* Service Limitations */}
         <section className={styles.section}>
           <div className={styles.sectionIconWrap}><Settings2 size={22} strokeWidth={1.8} color="#2563eb" /></div>
-          <h2 className={styles.sectionTitle}>7. Batasan Layanan &amp; Penafian</h2>
+          <h2 className={styles.sectionTitle}>7. Service Limitations &amp; Disclaimers</h2>
           <p className={styles.sectionDesc}>
-            Layanan ELECTROVICE disediakan berdasarkan "sebagaimana adanya" dan "sebagaimana tersedia". Kami tidak memberikan jaminan, tersurat maupun tersirat, mengenai hal-hal berikut:
+            ELECTROVICE Services are provided on an "as is" and "as available" basis. We make no warranties, express or implied, regarding the following:
           </p>
           <div className={styles.limitationsList}>
             <div className={styles.limitationItem}>
               <Circle size={8} fill="#2563eb" color="#2563eb" className={styles.limitationIconBlue} />
-              <p>Operasi Aplikasi yang tidak terputus atau bebas kesalahan setiap saat.</p>
+              <p>Uninterrupted or error-free operation of the App at all times.</p>
             </div>
             <div className={styles.limitationItem}>
               <Circle size={8} fill="#2563eb" color="#2563eb" className={styles.limitationIconBlue} />
-              <p>Kualitas, akurasi, atau keandalan pekerjaan perbaikan yang dilakukan oleh Teknisi independen.</p>
+              <p>The quality, accuracy, or reliability of repair work performed by independent Technicians.</p>
             </div>
             <div className={styles.limitationItem}>
               <Circle size={8} fill="#2563eb" color="#2563eb" className={styles.limitationIconBlue} />
-              <p>Ketersediaan Teknisi di semua wilayah geografis setiap saat.</p>
+              <p>Availability of Technicians in all geographic areas at all times.</p>
             </div>
             <div className={styles.limitationItem}>
               <Circle size={8} fill="#2563eb" color="#2563eb" className={styles.limitationIconBlue} />
-              <p>Kompatibilitas Aplikasi dengan semua model perangkat, versi sistem operasi, atau konfigurasi jaringan.</p>
+              <p>Compatibility of the App with all device models, operating system versions, or network configurations.</p>
             </div>
           </div>
         </section>
 
-        {/* Batasan Tanggung Jawab */}
+        {/* Limitation of Liability */}
         <section className={styles.liabilitySection}>
           <div className={styles.liabilityHeader}>
             <AlertTriangle size={22} strokeWidth={1.8} color="#f59e0b" className={styles.liabilityIcon} />
-            <h2 className={styles.sectionTitle}>8. Batasan Tanggung Jawab</h2>
+            <h2 className={styles.sectionTitle}>8. Limitation of Liability</h2>
           </div>
           <p className={styles.liabilityLegal}>
-            SEJAUH DIIZINKAN OLEH HUKUM YANG BERLAKU, ELECTROVICE DAN PEJABAT, DIREKTUR, KARYAWAN, SERTA AGENNYA TIDAK BERTANGGUNG JAWAB ATAS KERUGIAN TIDAK LANGSUNG, INSIDENTAL, KHUSUS, KONSEKUENSIAL, ATAU HUKUMAN YANG TIMBUL DARI PENGGUNAAN ATAU KETIDAKMAMPUAN ANDA MENGGUNAKAN APLIKASI ATAU LAYANAN.
+            TO THE EXTENT PERMITTED BY APPLICABLE LAW, ELECTROVICE AND ITS OFFICERS, DIRECTORS, EMPLOYEES, AND AGENTS SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES ARISING FROM YOUR USE OF OR INABILITY TO USE THE APP OR SERVICES.
           </p>
           <div className={styles.liabilityBox}>
             <p>
-              Total tanggung jawab agregat kami untuk klaim apa pun terkait Aplikasi atau Layanan tidak akan melebihi total jumlah yang Anda bayarkan kepada ELECTROVICE dalam dua belas (12) bulan sebelum peristiwa yang menimbulkan klaim, atau IDR 500.000 — mana yang lebih besar.
+              Our total aggregate liability for any claim related to the App or Services shall not exceed the total amount you paid to ELECTROVICE in the twelve (12) months prior to the event giving rise to the claim, or IDR 500,000 — whichever is greater.
             </p>
           </div>
         </section>
 
-        {/* Penghentian Akun */}
+        {/* Account Termination */}
         <section className={styles.section}>
           <div className={styles.sectionIconWrap}><Trash2 size={22} strokeWidth={1.8} color="#2563eb" /></div>
-          <h2 className={styles.sectionTitle}>9. Penghentian Akun</h2>
+          <h2 className={styles.sectionTitle}>9. Account Termination</h2>
           <div className={styles.textBlock}>
             <p>
-              Anda dapat menghapus akun kapan saja melalui <strong>Pengaturan → Akun → Hapus Akun</strong> di Aplikasi, atau dengan menghubungi kami di <strong>support@electrovice.app</strong>. Setelah penghapusan, data pribadi Anda akan dihapus dalam 30 hari, kecuali catatan transaksi yang disimpan untuk kepatuhan hukum.
+              You may delete your account at any time via <strong>Settings → Account → Delete Account</strong> in the App, or by contacting us at <strong>support@electrovice.app</strong>. Upon deletion, your personal data will be removed within 30 days, except for transaction records retained for legal compliance.
             </p>
             <p>
-              ELECTROVICE berhak menangguhkan atau menghentikan akun Anda tanpa pemberitahuan sebelumnya jika Anda melanggar Ketentuan ini, terlibat dalam aktivitas penipuan, atau jika kami diwajibkan demikian oleh hukum. Penangguhan atau penghentian tidak membebaskan Anda dari kewajiban pembayaran yang timbul sebelum penghentian.
+              ELECTROVICE reserves the right to suspend or terminate your account without prior notice if you violate these Terms, engage in fraudulent activity, or if we are required to do so by law. Suspension or termination does not relieve you of any payment obligations incurred prior to termination.
             </p>
           </div>
         </section>
 
-        {/* Hukum yang Berlaku */}
+        {/* Governing Law */}
         <section className={styles.section}>
           <div className={styles.sectionIconWrap}><Scale size={22} strokeWidth={1.8} color="#2563eb" /></div>
-          <h2 className={styles.sectionTitle}>10. Hukum yang Berlaku &amp; Penyelesaian Sengketa</h2>
+          <h2 className={styles.sectionTitle}>10. Governing Law &amp; Dispute Resolution</h2>
           <div className={styles.textBlock}>
             <p>
-              Ketentuan ini diatur oleh dan ditafsirkan sesuai dengan hukum Republik Indonesia, tanpa memperhatikan ketentuan pertentangan hukumnya.
+              These Terms are governed by and construed in accordance with the laws of the Republic of Indonesia, without regard to its conflict of law provisions.
             </p>
             <p>
-              Sengketa apa pun yang timbul dari atau terkait dengan Ketentuan ini pertama-tama akan diselesaikan melalui negosiasi dengan itikad baik. Jika tidak terselesaikan dalam 30 hari, sengketa akan diajukan ke pengadilan yang berwenang di Indonesia.
+              Any dispute arising from or related to these Terms shall first be resolved through good-faith negotiation. If unresolved within 30 days, the dispute shall be submitted to the competent courts in Indonesia.
             </p>
           </div>
         </section>
 
-        {/* Hubungi Kami */}
+        {/* Contact Us */}
         <section className={styles.agreementSection}>
           <div className={styles.sectionIconWrap} style={{ marginBottom: '1rem' }}><Mail size={22} strokeWidth={1.8} color="#2563eb" /></div>
-          <h2 className={styles.agreementTitle}>Hubungi Kami</h2>
+          <h2 className={styles.agreementTitle}>Contact Us</h2>
           <p className={styles.agreementDesc}>
-            Jika Anda memiliki pertanyaan tentang Syarat &amp; Ketentuan ini, silakan hubungi kami:
+            If you have any questions about these Terms &amp; Conditions, please contact us:
           </p>
           <div className={styles.textBlock}>
             <p><strong>ELECTROVICE</strong></p>
             <p>Email: <strong>support@electrovice.app</strong></p>
-            <p>Untuk permintaan privasi: <strong>privacy@electrovice.app</strong></p>
+            <p>For privacy requests: <strong>privacy@electrovice.app</strong></p>
             <p style={{ marginTop: '0.75rem', fontSize: '0.88rem', color: '#64748b' }}>
-              Kami akan merespons semua pertanyaan dalam 14 hari kerja.
+              We will respond to all inquiries within 14 business days.
             </p>
           </div>
         </section>

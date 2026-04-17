@@ -13,51 +13,51 @@ export default function Footer() {
               <img src={logoImg} alt="Electrovice" className={styles.logoImg} />
             </Link>
             <p className={styles.tagline}>
-              Cepat. Transparan. Terpercaya.<br />
-              Perangkatmu aman di tangan kami.
+              Fast. Transparent. Trusted.<br />
+              Your device is safe in our hands.
             </p>
           </div>
 
           <div className={styles.col}>
             <h4 className={styles.colTitle}>Legal</h4>
             <ul className={styles.colLinks}>
-              <li><Link to="/privacy-policy">Kebijakan Privasi</Link></li>
-              <li><Link to="/terms">Syarat & Ketentuan</Link></li>
-              <li><Link to="/privacy-policy#cookies">Kebijakan Cookie</Link></li>
+              <li><Link to="/privacy-policy">Privacy Policy</Link></li>
+              <li><Link to="/terms">Terms & Conditions</Link></li>
+              <li><Link to="/privacy-policy#cookies">Cookie Policy</Link></li>
             </ul>
           </div>
 
           <div className={styles.col}>
-            <h4 className={styles.colTitle}>Bantuan</h4>
+            <h4 className={styles.colTitle}>Support</h4>
             <ul className={styles.colLinks}>
               <li><a href="#">FAQ</a></li>
-              <li><a href="#">Pusat Bantuan</a></li>
-              <li><a href="#">Hubungi Kami</a></li>
-              <li><a href="#">Daftar Jadi Teknisi</a></li>
+              <li><a href="#">Help Center</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Become a Technician</a></li>
             </ul>
           </div>
 
           <div className={styles.col}>
             <h4 className={styles.colTitle}>Newsletter</h4>
-            <p className={styles.newsletterText}>Dapatkan tips servis dan info terbaru langsung di inbox-mu.</p>
+            <p className={styles.newsletterText}>Get repair tips and the latest news straight to your inbox.</p>
             <div className={styles.newsletterForm}>
               <input
                 type="email"
-                placeholder="email@kamu.com"
+                placeholder="your@email.com"
                 className={styles.newsletterInput}
               />
-              <button className={styles.newsletterBtn}>Langganan</button>
+              <button className={styles.newsletterBtn}>Subscribe</button>
             </div>
           </div>
         </div>
 
         <div className={styles.bottom}>
           <p className={styles.copyright}>
-            © {new Date().getFullYear()} ELECTROVICE. Membangun ekosistem perbaikan digital Indonesia.
+            © {new Date().getFullYear()} ELECTROVICE. Building Indonesia's digital repair ecosystem.
             {' '}·{' '}
-            <Link to="/privacy-policy" className={styles.footerLink}>Privasi</Link>
+            <Link to="/privacy-policy" className={styles.footerLink}>Privacy</Link>
             {' '}·{' '}
-            <Link to="/terms" className={styles.footerLink}>Ketentuan</Link>
+            <Link to="/terms" className={styles.footerLink}>Terms</Link>
           </p>
         </div>
       </div>
