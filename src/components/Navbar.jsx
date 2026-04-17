@@ -1,47 +1,40 @@
+import { useState } from 'react'
 import { NavLink } from 'react-router-dom'
+import { Menu, X } from 'lucide-react'
 import styles from './Navbar.module.css'
+import logoImg from '../assets/ELECTROVICE_LOGO_HD.png'
 
 export default function Navbar() {
+  const [open, setOpen] = useState(false)
+
   return (
     <nav className={styles.navbar}>
       <div className={styles.container}>
         <NavLink to="/" className={styles.logo}>
-          <span className={styles.logoIcon}>⚡</span>
-          <span className={styles.logoText}>ELECTROVICE</span>
+          <img src={logoImg} alt="Electrovice" className={styles.logoImg} />
         </NavLink>
 
-        <ul className={styles.navLinks}>
+        <ul className={`${styles.navLinks} ${open ? styles.navOpen : ''}`}>
           <li>
-            <NavLink
-              to="/"
-              end
-              className={({ isActive }) => isActive ? styles.activeLink : ''}
-            >
-              Services
+            <NavLink to="/" end className={({ isActive }) => isActive ? styles.activeLink : ''} onClick={() => setOpen(false)}>
+              Layanan
             </NavLink>
           </li>
           <li>
-            <NavLink
-              to="/how-it-works"
-              className={({ isActive }) => isActive ? styles.activeLink : ''}
-            >
-              How It Works
+            <NavLink to="/how-it-works" className={({ isActive }) => isActive ? styles.activeLink : ''} onClick={() => setOpen(false)}>
+              Cara Kerja
             </NavLink>
           </li>
           <li>
-            <NavLink
-              to="/benefits"
-              className={({ isActive }) => isActive ? styles.activeLink : ''}
-            >
-              Benefits
+            <NavLink to="/benefits" className={({ isActive }) => isActive ? styles.activeLink : ''} onClick={() => setOpen(false)}>
+              Keunggulan
             </NavLink>
           </li>
         </ul>
 
-        <div className={styles.navActions}>
-          <a href="#login" className={styles.loginLink}>Login</a>
-          <a href="#book" className={styles.btnPrimary}>Book Now</a>
-        </div>
+        <button className={styles.hamburger} onClick={() => setOpen(!open)} aria-label="Toggle menu">
+          {open ? <X size={22} /> : <Menu size={22} />}
+        </button>
       </div>
     </nav>
   )

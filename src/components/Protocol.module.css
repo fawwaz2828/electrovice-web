@@ -61,7 +61,13 @@
 }
 
 .stepIcon {
-  font-size: 2rem;
+  width: 48px;
+  height: 48px;
+  background: #eff6ff;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 1rem;
 }
 

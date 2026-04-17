@@ -81,7 +81,9 @@
 }
 
 .stepIcon {
-  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
 }
 
 .stepTitle {

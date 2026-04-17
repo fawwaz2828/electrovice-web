@@ -62,5 +62,18 @@
 }
 
 .trustIcon {
-  font-size: 1rem;
+  flex-shrink: 0;
+  color: #555;
+}
+
+@media (max-width: 600px) {
+  .section {
+    padding: 3rem 1.2rem;
+  }
+
+  .trust {
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+  }
 }

@@ -1,3 +1,4 @@
+import { Lock, Star, ShieldCheck } from 'lucide-react'
 import styles from './CTA.module.css'
 
 export default function CTA() {
@@ -5,25 +6,22 @@ export default function CTA() {
     <section className={styles.section}>
       <div className={styles.container}>
         <div className={styles.content}>
-          <h2 className={styles.title}>Ready to fix your device?</h2>
+          <h2 className={styles.title}>Siap perbaiki perangkatmu?</h2>
           <p className={styles.subtitle}>
-            Click a button below, and we will get you to a skilled hardware marketplace now.
+            Download ELECTROVICE dan temukan teknisi elektronik atau bengkel profesional terdekat sekarang juga.
           </p>
-          <div className={styles.actions}>
-            <a href="#book" className={styles.btnPrimary}>Book Your Repair Now</a>
-          </div>
           <div className={styles.trust}>
             <div className={styles.trustItem}>
-              <span className={styles.trustIcon}>🔒</span>
-              <span>SSL Secured</span>
+              <Lock size={16} strokeWidth={2} className={styles.trustIcon} />
+              <span>SSL Terenkripsi</span>
             </div>
             <div className={styles.trustItem}>
-              <span className={styles.trustIcon}>⭐</span>
-              <span>4.9/5 Rating</span>
+              <Star size={16} strokeWidth={2} fill="#f59e0b" color="#f59e0b" className={styles.trustIcon} />
+              <span>Rating 4.9/5</span>
             </div>
             <div className={styles.trustItem}>
-              <span className={styles.trustIcon}>🛡️</span>
-              <span>Money-back Guarantee</span>
+              <ShieldCheck size={16} strokeWidth={2} className={styles.trustIcon} />
+              <span>Garansi Uang Kembali</span>
             </div>
           </div>
         </div>

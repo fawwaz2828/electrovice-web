@@ -1,6 +1,6 @@
 .hero {
   background: linear-gradient(135deg, #f0f4ff 0%, #fafbff 60%, #e8f0fe 100%);
-  padding: 5rem 1.5rem 4rem;
+  padding: 0rem 5rem 4rem;
   overflow: hidden;
 }
 
@@ -121,133 +121,52 @@
   background: #d1d5db;
 }
 
+@media (max-width: 768px) {
+  .hero {
+    padding: 2.5rem 1.2rem 3rem;
+  }
+
+  .container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .content {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .subtext {
+    max-width: 100%;
+  }
+
+  .stats {
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .imageWrapper {
+    width: 100%;
+  }
+
+  .prototypeImage {
+    max-width: 100%;
+    transform: none;
+  }
+}
+
 /* Image side */
 .imageWrapper {
   flex: 1;
-  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 380px;
 }
 
-.imageBg {
-  position: absolute;
-  width: 320px;
-  height: 320px;
-  background: linear-gradient(135deg, #2563eb22, #6366f122);
-  border-radius: 50%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.imageCard {
-  position: relative;
-  background: #fff;
-  border-radius: 20px;
-  padding: 1.5rem;
-  box-shadow: 0 20px 60px rgba(37,99,235,0.15);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.8rem;
-  width: 220px;
-  z-index: 2;
-}
-
-.techBadge {
-  display: flex;
-  align-items: center;
-  gap: 0.4rem;
-  background: #dcfce7;
-  color: #16a34a;
-  font-size: 0.75rem;
-  font-weight: 600;
-  padding: 0.3rem 0.7rem;
-  border-radius: 12px;
-  align-self: flex-start;
-}
-
-.techBadgeDot {
-  width: 6px;
-  height: 6px;
-  background: #16a34a;
-  border-radius: 50%;
-  display: inline-block;
-}
-
-.techAvatar {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  overflow: hidden;
-  border: 3px solid #e0e7ff;
-}
-
-.techAvatar img {
+.prototypeImage {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.techInfo {
-  text-align: center;
-}
-
-.techName {
-  font-weight: 700;
-  font-size: 0.95rem;
-  color: #1a1a2e;
-}
-
-.techRole {
-  font-size: 0.78rem;
-  color: #888;
-  margin-bottom: 0.3rem;
-}
-
-.techRating {
-  color: #f59e0b;
-  font-size: 0.8rem;
-}
-
-.techRating span {
-  color: #555;
-  font-weight: 600;
-}
-
-.floatingCard {
-  position: absolute;
-  bottom: 30px;
-  right: -10px;
-  background: #fff;
-  border-radius: 14px;
-  padding: 0.75rem 1rem;
-  display: flex;
-  align-items: center;
-  gap: 0.6rem;
-  box-shadow: 0 8px 30px rgba(0,0,0,0.12);
-  z-index: 3;
-  animation: float 3s ease-in-out infinite;
-}
-
-.floatingIcon {
-  font-size: 1.4rem;
-}
-
-.floatingTitle {
-  font-size: 0.82rem;
-  font-weight: 700;
-  color: #1a1a2e;
-}
-
-.floatingSubtitle {
-  font-size: 0.72rem;
-  color: #888;
-}
-
-@keyframes float {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-6px); }
+  max-width: 480px;
+  height: auto;
+  object-fit: contain;
+  transform: translateY(1rem);
 }

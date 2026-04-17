@@ -7,6 +7,7 @@ import HowItWorksPage from './pages/HowItWorksPage'
 import BenefitsPage from './pages/BenefitsPage'
 import PrivacyPolicyPage from './pages/PrivacyPolicyPage'
 import TermsPage from './pages/TermsPage'
+import DownloadPage from './pages/DownloadPage'
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
         <Route path="/benefits" element={<BenefitsPage />} />
         <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
         <Route path="/terms" element={<TermsPage />} />
+        <Route path="/download" element={<DownloadPage />} />
       </Routes>
       <Footer />
     </BrowserRouter>

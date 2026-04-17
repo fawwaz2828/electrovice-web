@@ -1,29 +1,31 @@
+import { LayoutGrid, KeyRound, CheckCircle2, CreditCard } from 'lucide-react'
+import { Link } from 'react-router-dom'
 import styles from './HowItWorks.module.css'
 
 const steps = [
   {
     num: '01',
-    icon: '🗂️',
-    title: 'Choose Category',
-    desc: 'Select your device or vehicle type to get matched with the right specialist.',
+    Icon: LayoutGrid,
+    title: 'Pilih Kategori Kerusakan',
+    desc: 'Pilih kategori perangkat elektronik atau kendaraanmu. GPS otomatis menampilkan teknisi terdekat dengan spesialisasi yang relevan.',
   },
   {
     num: '02',
-    icon: '🔑',
-    title: 'OTP Matching',
-    desc: 'Receive a unique 6-digit code that links you securely to your assigned technician.',
+    Icon: KeyRound,
+    title: 'Kode 6 Digit Diterbitkan',
+    desc: 'Setelah memilih teknisi, aplikasi menerbitkan kode unik 6 digit sebagai alat verifikasi identitas mitra saat tiba di lokasi.',
   },
   {
     num: '03',
-    icon: '✔️',
-    title: '4-Digit Verification',
-    desc: 'Confirm repair completion with a second verification code before any payment.',
+    Icon: CheckCircle2,
+    title: 'Pantau Perbaikan Live',
+    desc: 'Pantau setiap tahap perbaikan secara real-time langsung dari aplikasi. Kamu tahu persis apa yang sedang dikerjakan teknisi.',
   },
   {
     num: '04',
-    icon: '💳',
-    title: 'Track & Pay',
-    desc: 'Monitor your repair in real time and pay only after you are satisfied.',
+    Icon: CreditCard,
+    title: 'Bayar & Simpan Riwayat',
+    desc: 'Pembayaran aman via aplikasi. Seluruh detail perbaikan tersimpan otomatis di Riwayat Pemesanan sebagai dokumen garansi digital.',
   },
 ]
 
@@ -32,21 +34,21 @@ export default function HowItWorks() {
     <section className={styles.section}>
       <div className={styles.container}>
         <div className={styles.left}>
-          <span className={styles.pill}>How It Works</span>
-          <h2 className={styles.title}>Seamless from<br />Click to Completion</h2>
+          <span className={styles.pill}>Cara Kerja</span>
+          <h2 className={styles.title}>Mudah dari<br />Pesan hingga Selesai</h2>
           <p className={styles.subtitle}>
-            Four simple steps designed to protect your interests and ensure a hassle-free repair experience every time.
+            Empat langkah sederhana yang dirancang untuk melindungi kepentinganmu dan memastikan pengalaman servis yang aman setiap saat.
           </p>
           <div className={styles.steps}>
-            {steps.map((step, i) => (
+            {steps.map(({ num, Icon, title, desc }, i) => (
               <div key={i} className={styles.step}>
-                <div className={styles.stepNum}>{step.num}</div>
+                <div className={styles.stepNum}>{num}</div>
                 <div className={styles.stepContent}>
                   <div className={styles.stepHeader}>
-                    <span className={styles.stepIcon}>{step.icon}</span>
-                    <h3 className={styles.stepTitle}>{step.title}</h3>
+                    <Icon size={18} strokeWidth={2} color="#2563eb" />
+                    <h3 className={styles.stepTitle}>{title}</h3>
                   </div>
-                  <p className={styles.stepDesc}>{step.desc}</p>
+                  <p className={styles.stepDesc}>{desc}</p>
                 </div>
               </div>
             ))}
@@ -59,14 +61,14 @@ export default function HowItWorks() {
               <span className={styles.dot} />
               Live Dashboard
             </div>
-            <h3 className={styles.cardTitle}>Total Control.<br />Instant Transparency.</h3>
+            <h3 className={styles.cardTitle}>Kontrol Penuh.<br />Transparan Sepenuhnya.</h3>
             <p className={styles.cardSubtitle}>
-              Track every repair step in real time. Full visibility from booking to completion.
+              Pantau setiap tahap servis secara real-time. Visibilitas penuh dari pemesanan hingga selesai.
             </p>
             <div className={styles.metrics}>
               <div className={styles.metric}>
                 <span className={styles.metricValue}>6-Digit</span>
-                <span className={styles.metricLabel}>OTP Security</span>
+                <span className={styles.metricLabel}>Kode Verifikasi</span>
               </div>
               <div className={styles.metric}>
                 <span className={styles.metricValue}>Real-time</span>
@@ -74,7 +76,7 @@ export default function HowItWorks() {
               </div>
               <div className={styles.metric}>
                 <span className={styles.metricValue}>100%</span>
-                <span className={styles.metricLabel}>Transparent</span>
+                <span className={styles.metricLabel}>Transparan</span>
               </div>
             </div>
             <div className={styles.progressSection}>
@@ -86,7 +88,7 @@ export default function HowItWorks() {
                 <div className={styles.progressFill} style={{ width: '75%' }} />
               </div>
             </div>
-            <a href="#book" className={styles.cardBtn}>Start a Repair →</a>
+            <Link to="/download" className={styles.cardBtn}>Start a Repair →</Link>
           </div>
         </div>
       </div>

@@ -2,24 +2,17 @@ import styles from './Ecosystem.module.css'
 
 const categories = [
   {
-    title: 'Electronics',
-    desc: 'Smartphones, laptops, tablets, and all consumer electronics',
+    title: 'Elektronik',
+    desc: 'TV, laptop, kulkas, smartphone, AC, dan semua perangkat elektronik rumah tangga. Teknisi terdekat siap dipanggil ke lokasi.',
     img: 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=360&fit=crop',
-    tag: 'Most Popular',
+    tag: 'Paling Populer',
     tagColor: '#2563eb',
   },
   {
-    title: 'Electrical',
-    desc: 'Home wiring, circuit breakers, and electrical systems',
-    img: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600&h=360&fit=crop',
-    tag: 'Trending',
-    tagColor: '#16a34a',
-  },
-  {
-    title: 'Automotive',
-    desc: 'Car diagnostics, engine repair, and vehicle maintenance',
+    title: 'Kendaraan',
+    desc: 'Servis motor, mobil, dan kendaraan operasional. Teknisi bengkel profesional siap datang ke lokasi mogokmu.',
     img: 'https://images.unsplash.com/photo-1487754180451-c456f719a1fc?w=600&h=360&fit=crop',
-    tag: 'New',
+    tag: 'Home Service',
     tagColor: '#9333ea',
   },
 ]
@@ -29,10 +22,10 @@ export default function Ecosystem() {
     <section id="ecosystem" className={styles.section}>
       <div className={styles.container}>
         <div className={styles.header}>
-          <span className={styles.pill}>Categories</span>
-          <h2 className={styles.title}>Repair Ecosystem</h2>
+          <span className={styles.pill}>Kategori Layanan</span>
+          <h2 className={styles.title}>Ekosistem Perbaikan</h2>
           <p className={styles.subtitle}>
-            From consumer gadgets to vehicles — one platform covers all your repair needs.
+            Dari perangkat elektronik rumah tangga hingga kendaraan — satu platform untuk semua kebutuhan servismu.
           </p>
         </div>
         <div className={styles.grid}>
@@ -46,7 +39,7 @@ export default function Ecosystem() {
                 <h3 className={styles.cardTitle}>{cat.title}</h3>
                 <p className={styles.cardDesc}>{cat.desc}</p>
                 <a href="#book" className={styles.cardLink}>
-                  Find Technician →
+                  Cari Teknisi →
                 </a>
               </div>
             </div>

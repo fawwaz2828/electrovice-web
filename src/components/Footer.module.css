@@ -21,14 +21,15 @@
 .brand {}
 
 .logo {
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  gap: 0.4rem;
-  font-size: 1.1rem;
-  font-weight: 800;
-  color: #fff;
-  letter-spacing: 0.05em;
   margin-bottom: 1rem;
+}
+
+.logoImg {
+  height: 32px;
+  width: auto;
+  display: block;
 }
 
 .tagline {
