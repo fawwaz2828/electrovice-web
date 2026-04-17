@@ -23,17 +23,13 @@ export default function Footer() {
             <ul className={styles.colLinks}>
               <li><Link to="/privacy-policy">Privacy Policy</Link></li>
               <li><Link to="/terms">Terms & Conditions</Link></li>
-              <li><Link to="/privacy-policy#cookies">Cookie Policy</Link></li>
             </ul>
           </div>
 
           <div className={styles.col}>
             <h4 className={styles.colTitle}>Support</h4>
             <ul className={styles.colLinks}>
-              <li><a href="#">FAQ</a></li>
-              <li><a href="#">Help Center</a></li>
-              <li><a href="#">Contact Us</a></li>
-              <li><a href="#">Become a Technician</a></li>
+              <li><Link to="/contact">Contact Us</Link></li>
             </ul>
           </div>
 
