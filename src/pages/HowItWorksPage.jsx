@@ -1,5 +1,10 @@
 import { Settings2, Shield, MapPin, CheckCircle2, Leaf, Award } from 'lucide-react'
 import styles from './HowItWorksPage.module.css'
+import stepsImg from '../assets/steps.png'
+import gpsImg from '../assets/gps.png'
+import veriffImg from '../assets/veriff.png'
+import tepImg from '../assets/tep.png'
+import payImg from '../assets/pay.png'
 
 export default function HowItWorksPage() {
   return (
@@ -25,7 +30,7 @@ export default function HowItWorksPage() {
           <div className={styles.heroImage}>
             <div className={styles.heroImgWrap}>
               <img
-                src=".\src\assets\steps.png"
+                src={stepsImg}
                 alt="Seseorang menggunakan aplikasi ELECTROVICE di smartphone"
               />
             </div>
@@ -57,7 +62,7 @@ export default function HowItWorksPage() {
             <div className={styles.stepRight}>
               <div className={styles.mapCard}>
                 <img
-                  src=".\src\assets\gps.png"
+                  src={gpsImg}
                   alt="GPS Map"
                   className={styles.mapImg}
                 />
@@ -83,7 +88,7 @@ export default function HowItWorksPage() {
             <div className={styles.stepRight}>
               <div className={styles.veriffImgWrap}>
                 <img
-                  src=".\src\assets\veriff.png"
+                  src={veriffImg}
                   alt="Kode Verifikasi 6 Digit ELECTROVICE"
                   className={styles.veriffImg}
                 />
@@ -107,7 +112,7 @@ export default function HowItWorksPage() {
             <div className={styles.stepRight}>
               <div className={styles.veriffImgWrap}>
                 <img
-                  src=".\src\assets\tep.png"
+                  src={tepImg}
                   alt="Pantau Perbaikan Real-Time ELECTROVICE"
                   className={styles.veriffImg}
                 />
@@ -135,7 +140,7 @@ export default function HowItWorksPage() {
             <div className={styles.stepRight}>
               <div className={styles.veriffImgWrap}>
                 <img
-                  src=".\src\assets\pay.png"
+                  src={payImg}
                   alt="Bayar Aman & Simpan Riwayat ELECTROVICE"
                   className={styles.veriffImg}
                 />
